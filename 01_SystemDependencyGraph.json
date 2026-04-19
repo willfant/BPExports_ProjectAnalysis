@@ -8,6 +8,13 @@
 			"problems": 0
 		},
 		{
+			"name": "BPFL_Level",
+			"functions": 15,
+			"variables": 0,
+			"call_edges": 39,
+			"problems": 5
+		},
+		{
 			"name": "BP_AudioManager",
 			"functions": 26,
 			"variables": 17,
@@ -16,10 +23,10 @@
 		},
 		{
 			"name": "BP_DebugManager",
-			"functions": 6,
+			"functions": 12,
 			"variables": 9,
-			"call_edges": 31,
-			"problems": 3
+			"call_edges": 74,
+			"problems": 6
 		},
 		{
 			"name": "BP_GetActorsLocation",
@@ -127,1236 +134,25 @@
 			"problems": 0
 		},
 		{
-			"name": "Brushify_Erosion_09",
-			"functions": 2,
-			"variables": 0,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "Brushify_Erosion_10",
-			"functions": 2,
-			"variables": 0,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "Brushify_Mars_01",
-			"functions": 2,
-			"variables": 0,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "Brushify_Mars_02",
-			"functions": 2,
-			"variables": 0,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "Brushify_Mars_03",
-			"functions": 2,
-			"variables": 0,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "Brushify_Mars_04",
-			"functions": 2,
-			"variables": 0,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "Brushify_Moon_01",
-			"functions": 2,
-			"variables": 0,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "Brushify_Moon_02",
-			"functions": 2,
-			"variables": 0,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "Brushify_Moon_03",
-			"functions": 2,
-			"variables": 0,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "Brushify_Moon_04",
-			"functions": 2,
-			"variables": 0,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "Brushify_Moorland_01",
-			"functions": 2,
-			"variables": 0,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "Brushify_Moorland_02",
-			"functions": 2,
-			"variables": 0,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "Brushify_Moorland_03",
-			"functions": 2,
-			"variables": 0,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "Brushify_Moorland_04",
-			"functions": 2,
-			"variables": 0,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "Brushify_Moorland_05",
-			"functions": 2,
-			"variables": 0,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "Brushify_Moorland_06",
-			"functions": 2,
-			"variables": 0,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "Brushify_Moorland_07",
-			"functions": 2,
-			"variables": 0,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "Brushify_Moorland_08",
-			"functions": 2,
-			"variables": 0,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "Brushify_Moorland_09",
-			"functions": 2,
-			"variables": 0,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "Brushify_Moorland_10",
-			"functions": 2,
-			"variables": 0,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "Brushify_Mountain_01",
-			"functions": 2,
-			"variables": 0,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "Brushify_Mountain_02",
-			"functions": 2,
-			"variables": 0,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "Brushify_Mountain_03",
-			"functions": 2,
-			"variables": 0,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "Brushify_Mountain_04",
-			"functions": 2,
-			"variables": 0,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "Brushify_Mountain_05",
-			"functions": 2,
-			"variables": 0,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "Brushify_Mountain_06",
-			"functions": 2,
-			"variables": 0,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "Brushify_Mountain_07",
-			"functions": 2,
-			"variables": 0,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "Brushify_Mountain_08",
-			"functions": 2,
-			"variables": 0,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "Brushify_Mountain_09",
-			"functions": 2,
-			"variables": 0,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "Brushify_Mountain_10",
-			"functions": 2,
-			"variables": 0,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "Brushify_Tropical_01",
-			"functions": 2,
-			"variables": 0,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "Brushify_Tropical_02",
-			"functions": 2,
-			"variables": 0,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "Brushify_Tropical_03",
-			"functions": 2,
-			"variables": 0,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "Brushify_Tropical_04",
-			"functions": 2,
-			"variables": 0,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "Brushify_Volcano_01",
-			"functions": 2,
-			"variables": 0,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "Brushify_Volcano_02",
-			"functions": 2,
-			"variables": 0,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "Brushify_Volcano_03",
-			"functions": 2,
-			"variables": 0,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "Brushify_Volcano_04",
-			"functions": 2,
-			"variables": 0,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "ChaosDestructionListenerActor",
-			"functions": 2,
-			"variables": 0,
-			"call_edges": 6,
-			"problems": 0
-		},
-		{
-			"name": "Cloud_Painter_Settings",
-			"functions": 1,
-			"variables": 10,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "Configuration_Selection_Object",
-			"functions": 1,
-			"variables": 1,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "ConversionMacroLibrary",
-			"functions": 4,
-			"variables": 0,
-			"call_edges": 20,
-			"problems": 0
-		},
-		{
-			"name": "DatasmithActor",
-			"functions": 2,
-			"variables": 0,
-			"call_edges": 2,
-			"problems": 0
-		},
-		{
-			"name": "DatasmithAreaLight",
-			"functions": 3,
-			"variables": 5,
-			"call_edges": 38,
-			"problems": 15
-		},
-		{
-			"name": "DatasmithAreaLightMesh",
-			"functions": 3,
-			"variables": 1,
-			"call_edges": 8,
-			"problems": 10
-		},
-		{
-			"name": "DatasmithLayer",
-			"functions": 3,
-			"variables": 1,
-			"call_edges": 6,
-			"problems": 0
-		},
-		{
-			"name": "DatasmithSelector",
-			"functions": 1,
-			"variables": 1,
-			"call_edges": 4,
-			"problems": 0
-		},
-		{
-			"name": "DA_DebugProfile_Base",
-			"functions": 1,
-			"variables": 9,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "Debug_MeshCutout",
-			"functions": 2,
-			"variables": 1,
-			"call_edges": 2,
-			"problems": 0
-		},
-		{
-			"name": "DefaultBurnInOptions",
-			"functions": 1,
-			"variables": 9,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "DesktopPresence",
-			"functions": 2,
-			"variables": 0,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "DLWE_Interaction",
-			"functions": 25,
-			"variables": 37,
-			"call_edges": 148,
-			"problems": 10
-		},
-		{
-			"name": "DmgTypeBP_Environmental",
-			"functions": 1,
-			"variables": 0,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "FS_AnchorField_Generic",
-			"functions": 5,
-			"variables": 14,
-			"call_edges": 56,
-			"problems": 4
-		},
-		{
-			"name": "FS_BaseField",
+			"name": "BP_TransitionManager",
 			"functions": 12,
-			"variables": 20,
-			"call_edges": 74,
+			"variables": 12,
+			"call_edges": 67,
+			"problems": 2
+		},
+		{
+			"name": "BP_WorldModeSystem",
+			"functions": 9,
+			"variables": 7,
+			"call_edges": 23,
 			"problems": 1
-		},
-		{
-			"name": "FS_BombField_Prototype",
-			"functions": 16,
-			"variables": 118,
-			"call_edges": 377,
-			"problems": 103
-		},
-		{
-			"name": "FS_MasterField",
-			"functions": 10,
-			"variables": 86,
-			"call_edges": 243,
-			"problems": 58
-		},
-		{
-			"name": "FS_RadialField",
-			"functions": 2,
-			"variables": 6,
-			"call_edges": 9,
-			"problems": 5
-		},
-		{
-			"name": "FS_SleepDisable_Generic",
-			"functions": 4,
-			"variables": 23,
-			"call_edges": 68,
-			"problems": 11
-		},
-		{
-			"name": "FS_UniformScalarField",
-			"functions": 2,
-			"variables": 6,
-			"call_edges": 6,
-			"problems": 0
-		},
-		{
-			"name": "FS_UniformVectorField",
-			"functions": 2,
-			"variables": 6,
-			"call_edges": 9,
-			"problems": 1
-		},
-		{
-			"name": "FS_WaveScalarField",
-			"functions": 2,
-			"variables": 10,
-			"call_edges": 7,
-			"problems": 1
-		},
-		{
-			"name": "GeometryScriptMacroLibrary",
-			"functions": 4,
-			"variables": 0,
-			"call_edges": 11,
-			"problems": 0
 		},
 		{
 			"name": "GI_Echoes",
 			"functions": 50,
 			"variables": 49,
-			"call_edges": 88,
-			"problems": 16
-		},
-		{
-			"name": "GM_Advanced_Hybrid",
-			"functions": 2,
-			"variables": 0,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "GM_BASIC",
-			"functions": 2,
-			"variables": 0,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "GM_PC_Hands",
-			"functions": 2,
-			"variables": 0,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "GM_VRM",
-			"functions": 2,
-			"variables": 0,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "GM_Zero",
-			"functions": 2,
-			"variables": 0,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "Grabbable_SmallCube",
-			"functions": 2,
-			"variables": 0,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "GrabComponent",
-			"functions": 7,
-			"variables": 9,
-			"call_edges": 34,
-			"problems": 4
-		},
-		{
-			"name": "HemiOctahedra",
-			"functions": 2,
-			"variables": 0,
-			"call_edges": 22,
-			"problems": 0
-		},
-		{
-			"name": "ImportedSequencesHelper",
-			"functions": 4,
-			"variables": 3,
-			"call_edges": 9,
-			"problems": 9
-		},
-		{
-			"name": "ImpostorPresets",
-			"functions": 1,
-			"variables": 46,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "ImpostorScene",
-			"functions": 7,
-			"variables": 8,
-			"call_edges": 9,
-			"problems": 1
-		},
-		{
-			"name": "ImpostorViewport",
-			"functions": 1,
-			"variables": 0,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "Impostor_MeshCutout",
-			"functions": 10,
-			"variables": 26,
-			"call_edges": 68,
-			"problems": 7
-		},
-		{
-			"name": "Light_Day-Night_Toggle",
-			"functions": 5,
-			"variables": 17,
-			"call_edges": 40,
-			"problems": 6
-		},
-		{
-			"name": "Linear_Force_for_Cloth",
-			"functions": 10,
-			"variables": 86,
-			"call_edges": 243,
-			"problems": 58
-		},
-		{
-			"name": "Linear_Velocity_for_Cloth",
-			"functions": 10,
-			"variables": 86,
-			"call_edges": 243,
-			"problems": 58
-		},
-		{
-			"name": "master_river_spline",
-			"functions": 2,
-			"variables": 29,
-			"call_edges": 2,
-			"problems": 10
-		},
-		{
-			"name": "master_tree_branch_spline",
-			"functions": 2,
-			"variables": 53,
-			"call_edges": 3,
-			"problems": 15
-		},
-		{
-			"name": "master_tree_branch_spline_no_auto_scale",
-			"functions": 2,
-			"variables": 53,
-			"call_edges": 3,
-			"problems": 15
-		},
-		{
-			"name": "master_tree_root_spline",
-			"functions": 2,
-			"variables": 32,
-			"call_edges": 3,
-			"problems": 15
-		},
-		{
-			"name": "master_tree_root_with_moss_spline",
-			"functions": 2,
-			"variables": 32,
-			"call_edges": 3,
-			"problems": 15
-		},
-		{
-			"name": "master_vine_spline",
-			"functions": 2,
-			"variables": 54,
-			"call_edges": 3,
-			"problems": 15
-		},
-		{
-			"name": "Material_Snow_Dust_Reorient",
-			"functions": 4,
-			"variables": 7,
-			"call_edges": 32,
-			"problems": 0
-		},
-		{
-			"name": "Menu",
-			"functions": 5,
-			"variables": 9,
-			"call_edges": 64,
-			"problems": 12
-		},
-		{
-			"name": "MRUKLightDispatcher",
-			"functions": 2,
-			"variables": 0,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "NewBlueprint",
-			"functions": 2,
-			"variables": 0,
-			"call_edges": 3,
-			"problems": 4
-		},
-		{
-			"name": "NiagaraPreview",
-			"functions": 2,
-			"variables": 1,
-			"call_edges": 3,
-			"problems": 0
-		},
-		{
-			"name": "NiagaraPreviewAxisLODDistance",
-			"functions": 3,
-			"variables": 2,
-			"call_edges": 11,
-			"problems": 3
-		},
-		{
-			"name": "Notes",
-			"functions": 2,
-			"variables": 0,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "Pistol",
-			"functions": 2,
-			"variables": 1,
-			"call_edges": 17,
-			"problems": 3
-		},
-		{
-			"name": "Projectile",
-			"functions": 2,
-			"variables": 0,
-			"call_edges": 8,
-			"problems": 0
-		},
-		{
-			"name": "Puddle_Fluid_Volume",
-			"functions": 19,
-			"variables": 40,
-			"call_edges": 169,
-			"problems": 10
-		},
-		{
-			"name": "Puddle_Fluid_Volume_Interface",
-			"functions": 1,
-			"variables": 0,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "Radial_Storm",
-			"functions": 22,
-			"variables": 46,
-			"call_edges": 130,
-			"problems": 10
-		},
-		{
-			"name": "Radial_Storm_Sky_Interface",
-			"functions": 2,
-			"variables": 0,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "Radial_Storm_Weather_Interface",
-			"functions": 4,
-			"variables": 0,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "Rain_Drip_Spline",
-			"functions": 9,
-			"variables": 34,
-			"call_edges": 86,
-			"problems": 12
-		},
-		{
-			"name": "Random_Weather_Variation",
-			"functions": 26,
-			"variables": 29,
-			"call_edges": 112,
-			"problems": 18
-		},
-		{
-			"name": "RenderToTextureFunctionLibrary",
-			"functions": 2,
-			"variables": 0,
-			"call_edges": 39,
-			"problems": 1
-		},
-		{
-			"name": "RenderToTextureMacros",
-			"functions": 3,
-			"variables": 0,
-			"call_edges": 79,
-			"problems": 3
-		},
-		{
-			"name": "RenderToTexture_Game",
-			"functions": 2,
-			"variables": 0,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "RenderToTexture_LevelBP",
-			"functions": 32,
-			"variables": 157,
-			"call_edges": 627,
-			"problems": 305
-		},
-		{
-			"name": "RenderToTexture_Pawn",
-			"functions": 2,
-			"variables": 13,
-			"call_edges": 44,
-			"problems": 23
-		},
-		{
-			"name": "SC_FakeBloom",
-			"functions": 1,
-			"variables": 13,
-			"call_edges": 7,
-			"problems": 3
-		},
-		{
-			"name": "SC_Hand",
-			"functions": 1,
-			"variables": 1,
-			"call_edges": 3,
-			"problems": 1
-		},
-		{
-			"name": "SC_HandAttatch",
-			"functions": 1,
-			"variables": 0,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "SC_VRM_GrabPoint",
-			"functions": 1,
-			"variables": 5,
-			"call_edges": 20,
-			"problems": 5
-		},
-		{
-			"name": "Skylight_Cubemap",
-			"functions": 2,
-			"variables": 0,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "StandardMacros",
-			"functions": 24,
-			"variables": 0,
-			"call_edges": 29,
-			"problems": 2
-		},
-		{
-			"name": "SV_SaveGame",
-			"functions": 1,
-			"variables": 18,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "Temperature_Volume",
-			"functions": 3,
-			"variables": 7,
-			"call_edges": 2,
-			"problems": 2
-		},
-		{
-			"name": "Temperature_Volume_Interface",
-			"functions": 1,
-			"variables": 0,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "TutorialCharacter",
-			"functions": 2,
-			"variables": 0,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "Tutorial_BP_Class",
-			"functions": 2,
-			"variables": 2,
-			"call_edges": 2,
-			"problems": 2
-		},
-		{
-			"name": "Tutorial_BP_Interface",
-			"functions": 1,
-			"variables": 0,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "UDS_Calendar",
-			"functions": 1,
-			"variables": 12,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "UDS_Client_Controller",
-			"functions": 3,
-			"variables": 0,
-			"call_edges": 7,
-			"problems": 17
-		},
-		{
-			"name": "UDS_Climate_Preset",
-			"functions": 2,
-			"variables": 22,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "UDS_CloudProfile_Data",
-			"functions": 1,
-			"variables": 1,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "UDS_Cloud_Paint_Cell",
-			"functions": 1,
-			"variables": 5,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "UDS_Cloud_Paint_Container",
-			"functions": 5,
-			"variables": 6,
-			"call_edges": 13,
-			"problems": 4
-		},
-		{
-			"name": "UDS_Configuration",
-			"functions": 1,
-			"variables": 34,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "UDS_Configuration_Array",
-			"functions": 1,
-			"variables": 1,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "UDS_DLWE_Interaction_Settings",
-			"functions": 1,
-			"variables": 22,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "UDS_Editor_Tick_Interface",
-			"functions": 2,
-			"variables": 0,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "UDS_Environment_Sound",
-			"functions": 1,
-			"variables": 3,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "UDS_Modifier",
-			"functions": 2,
-			"variables": 12,
-			"call_edges": 4,
-			"problems": 0
-		},
-		{
-			"name": "UDS_Modifier_Interface",
-			"functions": 1,
-			"variables": 0,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "UDS_OcclusionSettings",
-			"functions": 1,
-			"variables": 14,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "UDS_OcclusionState",
-			"functions": 7,
-			"variables": 33,
-			"call_edges": 29,
-			"problems": 1
-		},
-		{
-			"name": "UDS_Occlusion_Portal",
-			"functions": 1,
-			"variables": 4,
-			"call_edges": 3,
-			"problems": 0
-		},
-		{
-			"name": "UDS_Occlusion_Volume",
-			"functions": 4,
-			"variables": 3,
-			"call_edges": 6,
-			"problems": 0
-		},
-		{
-			"name": "UDS_Planet_Preset",
-			"functions": 1,
-			"variables": 1,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "UDS_PlayerOcclusion",
-			"functions": 18,
-			"variables": 12,
-			"call_edges": 114,
-			"problems": 4
-		},
-		{
-			"name": "UDS_Readme_Interface",
-			"functions": 2,
-			"variables": 0,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "UDS_Readme_Settings",
-			"functions": 1,
-			"variables": 3,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "UDS_RenderTarget_State",
-			"functions": 8,
-			"variables": 11,
-			"call_edges": 9,
-			"problems": 0
-		},
-		{
-			"name": "UDS_SharedConfig",
-			"functions": 1,
-			"variables": 14,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "UDS_Sky_Configuration",
-			"functions": 1,
-			"variables": 7,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "UDS_Startup_Interface",
-			"functions": 2,
-			"variables": 0,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "UDS_Utility_Opener_Interface",
-			"functions": 5,
-			"variables": 0,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "UDS_VersionInfo",
-			"functions": 1,
-			"variables": 1,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "UDS_Volume_Actor",
-			"functions": 5,
-			"variables": 7,
-			"call_edges": 21,
-			"problems": 1
-		},
-		{
-			"name": "UDS_Weather_Configuration",
-			"functions": 1,
-			"variables": 11,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "UDS_Weather_Settings",
-			"functions": 3,
-			"variables": 15,
-			"call_edges": 1,
-			"problems": 0
-		},
-		{
-			"name": "UDW_and_Weather_Override_Volume_Interface",
-			"functions": 5,
-			"variables": 0,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "UDW_LightningStrikableActorInterface",
-			"functions": 2,
-			"variables": 0,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "UDW_Lightning_Spawn_Manager",
-			"functions": 4,
-			"variables": 4,
-			"call_edges": 5,
-			"problems": 2
-		},
-		{
-			"name": "UDW_Material_State_Manager",
-			"functions": 10,
-			"variables": 10,
-			"call_edges": 16,
-			"problems": 4
-		},
-		{
-			"name": "UDW_Startup_Interface",
-			"functions": 2,
-			"variables": 0,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "UDW_Temperature_Manager",
-			"functions": 9,
-			"variables": 7,
-			"call_edges": 35,
-			"problems": 2
-		},
-		{
-			"name": "UDW_WeatherControlledActor_Interface",
-			"functions": 2,
-			"variables": 0,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "UDW_Wind_Camera_Shake",
-			"functions": 1,
-			"variables": 0,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "UltraDynamicSky_Functions",
-			"functions": 16,
-			"variables": 0,
-			"call_edges": 30,
-			"problems": 2
-		},
-		{
-			"name": "UltraDynamicWeather_Functions",
-			"functions": 22,
-			"variables": 0,
-			"call_edges": 33,
-			"problems": 1
-		},
-		{
-			"name": "Ultra_Dynamic_Sky",
-			"functions": 412,
-			"variables": 825,
-			"call_edges": 2863,
-			"problems": 310
-		},
-		{
-			"name": "Ultra_Dynamic_Weather",
-			"functions": 311,
-			"variables": 578,
-			"call_edges": 1673,
-			"problems": 173
-		},
-		{
-			"name": "Ultra_Dynamic_Weather_Interface",
-			"functions": 28,
-			"variables": 0,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "VRGameMode",
-			"functions": 2,
-			"variables": 0,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "VRPawn",
-			"functions": 10,
-			"variables": 11,
-			"call_edges": 84,
-			"problems": 12
-		},
-		{
-			"name": "VRPresence",
-			"functions": 2,
-			"variables": 0,
-			"call_edges": 3,
-			"problems": 0
-		},
-		{
-			"name": "VRSpectator",
-			"functions": 12,
-			"variables": 12,
-			"call_edges": 61,
-			"problems": 4
-		},
-		{
-			"name": "VRTeleportVisualizer",
-			"functions": 2,
-			"variables": 0,
-			"call_edges": 12,
-			"problems": 0
-		},
-		{
-			"name": "WBP_Menu",
-			"functions": 5,
-			"variables": 9,
-			"call_edges": 64,
-			"problems": 12
-		},
-		{
-			"name": "WeatherMask",
-			"functions": 17,
-			"variables": 18,
-			"call_edges": 44,
-			"problems": 1
-		},
-		{
-			"name": "WeatherMaskBrushPainter_Settings",
-			"functions": 1,
-			"variables": 8,
-			"call_edges": 0,
-			"problems": 0
-		},
-		{
-			"name": "Weather_Mask_Brush",
-			"functions": 4,
-			"variables": 5,
-			"call_edges": 9,
-			"problems": 0
-		},
-		{
-			"name": "Weather_Mask_Brush_Component",
-			"functions": 4,
-			"variables": 10,
-			"call_edges": 29,
-			"problems": 19
-		},
-		{
-			"name": "Weather_Mask_Projection_Box",
-			"functions": 4,
-			"variables": 8,
-			"call_edges": 9,
-			"problems": 0
-		},
-		{
-			"name": "Weather_Mask_Projection_Box_Component",
-			"functions": 8,
-			"variables": 15,
-			"call_edges": 57,
-			"problems": 33
-		},
-		{
-			"name": "Weather_Override_Volume",
-			"functions": 33,
-			"variables": 45,
-			"call_edges": 240,
-			"problems": 27
-		},
-		{
-			"name": "Wind_Physics_Force",
-			"functions": 5,
-			"variables": 9,
-			"call_edges": 32,
-			"problems": 2
+			"call_edges": 92,
+			"problems": 14
 		}
 	],
 	"edges": [
@@ -1365,6 +161,12 @@
 			"to": "GI_Echoes",
 			"type": "Call",
 			"reason": "SubmitDebugMessage"
+		},
+		{
+			"from": "BP_AudioManager",
+			"to": "BP_WorldModeSystem",
+			"type": "Reference",
+			"reason": "WorldModeSystemRef"
 		},
 		{
 			"from": "BP_AudioManager",
@@ -1443,6 +245,12 @@
 			"to": "BFL_Debug",
 			"type": "Call",
 			"reason": "DebugMessage"
+		},
+		{
+			"from": "BP_AudioManager",
+			"to": "BP_WorldModeSystem",
+			"type": "Call",
+			"reason": "GetWorldMode"
 		},
 		{
 			"from": "BP_AudioManager",
@@ -1604,13 +412,13 @@
 			"from": "BP_DebugManager",
 			"to": "GI_Echoes",
 			"type": "Call",
-			"reason": "RegisterDebugManager"
+			"reason": "UnregisterDebugManager"
 		},
 		{
 			"from": "BP_DebugManager",
 			"to": "GI_Echoes",
 			"type": "Call",
-			"reason": "UnregisterDebugManager"
+			"reason": "RegisterDebugManager"
 		},
 		{
 			"from": "BP_GhostManager",
@@ -1794,6 +602,12 @@
 		},
 		{
 			"from": "BP_PuzzleController",
+			"to": "BP_TransitionManager",
+			"type": "Reference",
+			"reason": "TransitionManagerRef"
+		},
+		{
+			"from": "BP_PuzzleController",
 			"to": "BP_ObjectiveManager",
 			"type": "Reference",
 			"reason": "ObjectiveManagerRef"
@@ -1809,6 +623,12 @@
 			"to": "BP_SaveManager",
 			"type": "Reference",
 			"reason": "SaveManagerRef"
+		},
+		{
+			"from": "BP_PuzzleController",
+			"to": "BP_WorldModeSystem",
+			"type": "Call",
+			"reason": "GetWorldMode"
 		},
 		{
 			"from": "BP_PuzzleController",
@@ -1956,6 +776,12 @@
 		},
 		{
 			"from": "BP_PuzzleController",
+			"to": "BP_TransitionManager",
+			"type": "Call",
+			"reason": "StartMemoryTransition"
+		},
+		{
+			"from": "BP_PuzzleController",
 			"to": "BP_GhostManager",
 			"type": "Call",
 			"reason": "GetCurrentGhostProfile"
@@ -1974,9 +800,21 @@
 		},
 		{
 			"from": "BP_PuzzleController",
+			"to": "BP_WorldModeSystem",
+			"type": "Call",
+			"reason": "SetWorldMode"
+		},
+		{
+			"from": "BP_PuzzleController",
 			"to": "BP_ObjectiveManager",
 			"type": "Call",
 			"reason": "CompleteObjective"
+		},
+		{
+			"from": "BP_PuzzleController",
+			"to": "BP_TransitionManager",
+			"type": "Call",
+			"reason": "TravelToLevelName"
 		},
 		{
 			"from": "BP_PuzzleController",
@@ -2003,10 +841,22 @@
 			"reason": "SetCurrentPuzzleStepIndex"
 		},
 		{
+			"from": "BP_PuzzleController",
+			"to": "BP_WorldModeSystem",
+			"type": "Call",
+			"reason": "GetWorldMode"
+		},
+		{
 			"from": "BP_SaveManager",
 			"to": "BP_GhostManager",
 			"type": "Reference",
 			"reason": "GhostManagerRef"
+		},
+		{
+			"from": "BP_SaveManager",
+			"to": "BP_WorldModeSystem",
+			"type": "Reference",
+			"reason": "WorldModeSystemRef"
 		},
 		{
 			"from": "BP_SaveManager",
@@ -2082,6 +932,12 @@
 		},
 		{
 			"from": "BP_ScareManager",
+			"to": "BP_WorldModeSystem",
+			"type": "Reference",
+			"reason": "WorldModeSystemRef"
+		},
+		{
+			"from": "BP_ScareManager",
 			"to": "BFL_Debug",
 			"type": "Call",
 			"reason": "DebugMessage"
@@ -2130,6 +986,12 @@
 		},
 		{
 			"from": "BP_ScareManager",
+			"to": "BP_WorldModeSystem",
+			"type": "Call",
+			"reason": "GetWorldMode"
+		},
+		{
+			"from": "BP_ScareManager",
 			"to": "BFL_Debug",
 			"type": "Call",
 			"reason": "DebugMessage"
@@ -2171,52 +1033,250 @@
 			"reason": "DebugMessage"
 		},
 		{
-			"from": "DatasmithActor",
-			"to": "DatasmithLayer",
+			"from": "BP_TransitionManager",
+			"to": "BFL_Debug",
 			"type": "Call",
-			"reason": "UpdateHierarchy"
+			"reason": "DebugMessage"
 		},
 		{
-			"from": "DatasmithSelector",
-			"to": "DatasmithLayer",
+			"from": "BP_TransitionManager",
+			"to": "BFL_Debug",
 			"type": "Call",
-			"reason": "UpdateHierarchy"
+			"reason": "DebugMessage"
 		},
 		{
-			"from": "Debug_MeshCutout",
-			"to": "Impostor_MeshCutout",
+			"from": "BP_TransitionManager",
+			"to": "BFL_Debug",
 			"type": "Call",
-			"reason": "Initialize"
+			"reason": "DebugMessage"
 		},
 		{
-			"from": "Debug_MeshCutout",
-			"to": "Impostor_MeshCutout",
+			"from": "BP_TransitionManager",
+			"to": "BFL_Debug",
 			"type": "Call",
-			"reason": "GenerateMeshData"
+			"reason": "DebugMessage"
 		},
 		{
-			"from": "DLWE_Interaction",
-			"to": "UltraDynamicWeather_Functions",
+			"from": "BP_TransitionManager",
+			"to": "BFL_Debug",
 			"type": "Call",
-			"reason": "Get Ultra Dynamic Weather"
+			"reason": "DebugMessage"
 		},
 		{
-			"from": "DLWE_Interaction",
-			"to": "Ultra_Dynamic_Weather",
+			"from": "BP_TransitionManager",
+			"to": "BFL_Debug",
 			"type": "Call",
-			"reason": "Check Point for Puddles Snow Or Dust"
+			"reason": "DebugMessage"
 		},
 		{
-			"from": "DLWE_Interaction",
-			"to": "Ultra_Dynamic_Weather",
+			"from": "BP_TransitionManager",
+			"to": "BFL_Debug",
 			"type": "Call",
-			"reason": "Compress DLWE Snow/Dust"
+			"reason": "DebugMessage"
 		},
 		{
-			"from": "DLWE_Interaction",
-			"to": "Ultra_Dynamic_Weather",
+			"from": "BP_TransitionManager",
+			"to": "BFL_Debug",
 			"type": "Call",
-			"reason": "Compress DLWE Snow/Dust"
+			"reason": "DebugMessage"
+		},
+		{
+			"from": "BP_TransitionManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugMessage"
+		},
+		{
+			"from": "BP_TransitionManager",
+			"to": "GI_Echoes",
+			"type": "Call",
+			"reason": "SetPendingTransition"
+		},
+		{
+			"from": "BP_TransitionManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugMessage"
+		},
+		{
+			"from": "BP_TransitionManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugMessage"
+		},
+		{
+			"from": "BP_TransitionManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugMessage"
+		},
+		{
+			"from": "BP_TransitionManager",
+			"to": "BP_WorldModeSystem",
+			"type": "Call",
+			"reason": "SetWorldMode"
+		},
+		{
+			"from": "BP_TransitionManager",
+			"to": "BP_SaveManager",
+			"type": "Call",
+			"reason": "SetCurrentWorldMode"
+		},
+		{
+			"from": "BP_TransitionManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugMessage"
+		},
+		{
+			"from": "BP_TransitionManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugMessage"
+		},
+		{
+			"from": "BP_TransitionManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugMessage"
+		},
+		{
+			"from": "BP_TransitionManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugMessage"
+		},
+		{
+			"from": "BP_TransitionManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugMessage"
+		},
+		{
+			"from": "BP_TransitionManager",
+			"to": "GI_Echoes",
+			"type": "Call",
+			"reason": "ClearPendingTransition"
+		},
+		{
+			"from": "BP_TransitionManager",
+			"to": "BP_SaveManager",
+			"type": "Call",
+			"reason": "SetCurrentWorldMode"
+		},
+		{
+			"from": "BP_TransitionManager",
+			"to": "BP_SaveManager",
+			"type": "Call",
+			"reason": "SetCurrentLevelName"
+		},
+		{
+			"from": "BP_TransitionManager",
+			"to": "BP_SaveManager",
+			"type": "Call",
+			"reason": "SetCurrentLevel"
+		},
+		{
+			"from": "BP_TransitionManager",
+			"to": "BP_SaveManager",
+			"type": "Call",
+			"reason": "PushManagerDataToSaveObject"
+		},
+		{
+			"from": "BP_TransitionManager",
+			"to": "BP_SaveManager",
+			"type": "Call",
+			"reason": "WriteSaveToDisk"
+		},
+		{
+			"from": "BP_TransitionManager",
+			"to": "BP_SaveManager",
+			"type": "Call",
+			"reason": "SetCurrentWorldMode"
+		},
+		{
+			"from": "BP_TransitionManager",
+			"to": "BP_SaveManager",
+			"type": "Call",
+			"reason": "SetCurrentLevelName"
+		},
+		{
+			"from": "BP_TransitionManager",
+			"to": "BP_SaveManager",
+			"type": "Call",
+			"reason": "SetCurrentLevel"
+		},
+		{
+			"from": "BP_TransitionManager",
+			"to": "BP_SaveManager",
+			"type": "Call",
+			"reason": "PushManagerDataToSaveObject"
+		},
+		{
+			"from": "BP_TransitionManager",
+			"to": "BP_SaveManager",
+			"type": "Call",
+			"reason": "WriteSaveToDisk"
+		},
+		{
+			"from": "BP_WorldModeSystem",
+			"to": "BP_SaveManager",
+			"type": "Reference",
+			"reason": "SaveManagerRef"
+		},
+		{
+			"from": "BP_WorldModeSystem",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugMessage"
+		},
+		{
+			"from": "BP_WorldModeSystem",
+			"to": "BP_SaveManager",
+			"type": "Call",
+			"reason": "GetCurrentWorldMode"
+		},
+		{
+			"from": "BP_WorldModeSystem",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugMessage"
+		},
+		{
+			"from": "BP_WorldModeSystem",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugMessage"
+		},
+		{
+			"from": "BP_WorldModeSystem",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugMessage"
+		},
+		{
+			"from": "BP_WorldModeSystem",
+			"to": "BP_SaveManager",
+			"type": "Call",
+			"reason": "SetCurrentWorldMode"
+		},
+		{
+			"from": "BP_WorldModeSystem",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugMessage"
+		},
+		{
+			"from": "BP_WorldModeSystem",
+			"to": "BP_SaveManager",
+			"type": "Call",
+			"reason": "GetCurrentWorldMode"
+		},
+		{
+			"from": "BP_WorldModeSystem",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugMessage"
 		},
 		{
 			"from": "GI_Echoes",
@@ -2244,6 +1304,18 @@
 		},
 		{
 			"from": "GI_Echoes",
+			"to": "BP_WorldModeSystem",
+			"type": "Reference",
+			"reason": "WorldModeSystemRef"
+		},
+		{
+			"from": "GI_Echoes",
+			"to": "BP_TransitionManager",
+			"type": "Reference",
+			"reason": "TransitionManagerRef"
+		},
+		{
+			"from": "GI_Echoes",
 			"to": "BFL_Debug",
 			"type": "Call",
 			"reason": "DebugMessage"
@@ -2259,6 +1331,18 @@
 			"to": "BP_SaveManager",
 			"type": "Call",
 			"reason": "GetCurrentWorldMode"
+		},
+		{
+			"from": "GI_Echoes",
+			"to": "BP_TransitionManager",
+			"type": "Call",
+			"reason": "TravelToLevelRef"
+		},
+		{
+			"from": "GI_Echoes",
+			"to": "BP_TransitionManager",
+			"type": "Call",
+			"reason": "TravelToLevelRef"
 		},
 		{
 			"from": "GI_Echoes",
@@ -2291,1306 +1375,16 @@
 			"reason": "GetCurrentLevel"
 		},
 		{
-			"from": "Pistol",
-			"to": "GrabComponent",
+			"from": "GI_Echoes",
+			"to": "BP_TransitionManager",
 			"type": "Call",
-			"reason": "GetHeldByHand"
+			"reason": "TravelToLevelName"
 		},
 		{
-			"from": "Pistol",
-			"to": "GrabComponent",
+			"from": "GI_Echoes",
+			"to": "BP_TransitionManager",
 			"type": "Call",
-			"reason": "GetHeldByHand"
-		},
-		{
-			"from": "Pistol",
-			"to": "GrabComponent",
-			"type": "Call",
-			"reason": "GetHeldByHand"
-		},
-		{
-			"from": "Pistol",
-			"to": "GrabComponent",
-			"type": "Call",
-			"reason": "GetHeldByHand"
-		},
-		{
-			"from": "Projectile",
-			"to": "Projectile",
-			"type": "Call",
-			"reason": "StopSimulating"
-		},
-		{
-			"from": "Puddle_Fluid_Volume",
-			"to": "Ultra_Dynamic_Weather",
-			"type": "Call",
-			"reason": "Open Editor Readme Entry"
-		},
-		{
-			"from": "Radial_Storm",
-			"to": "Ultra_Dynamic_Sky",
-			"type": "Call",
-			"reason": "Update Painted Cloud Coverage Target"
-		},
-		{
-			"from": "Radial_Storm",
-			"to": "Ultra_Dynamic_Weather",
-			"type": "Call",
-			"reason": "Update WOV Render Target"
-		},
-		{
-			"from": "Radial_Storm",
-			"to": "Ultra_Dynamic_Sky",
-			"type": "Call",
-			"reason": "Get Starting Cloud Painting Actors"
-		},
-		{
-			"from": "Radial_Storm",
-			"to": "Ultra_Dynamic_Weather",
-			"type": "Call",
-			"reason": "Get Starting Radial Storms"
-		},
-		{
-			"from": "Radial_Storm",
-			"to": "Ultra_Dynamic_Weather",
-			"type": "Call",
-			"reason": "Material Effect Draw Color from State"
-		},
-		{
-			"from": "Radial_Storm",
-			"to": "Ultra_Dynamic_Sky",
-			"type": "Call",
-			"reason": "Update Painted Cloud Coverage Target"
-		},
-		{
-			"from": "Radial_Storm",
-			"to": "Ultra_Dynamic_Weather",
-			"type": "Call",
-			"reason": "Update WOV Render Target"
-		},
-		{
-			"from": "Radial_Storm",
-			"to": "Ultra_Dynamic_Weather",
-			"type": "Call",
-			"reason": "Filter Radial Storm Array"
-		},
-		{
-			"from": "Radial_Storm",
-			"to": "Ultra_Dynamic_Weather",
-			"type": "Call",
-			"reason": "Open Editor Readme Entry"
-		},
-		{
-			"from": "Rain_Drip_Spline",
-			"to": "Ultra_Dynamic_Weather",
-			"type": "Call",
-			"reason": "Open Editor Readme Entry"
-		},
-		{
-			"from": "Random_Weather_Variation",
-			"to": "UDS_Climate_Preset",
-			"type": "Call",
-			"reason": "Return Temperature Range in Scale"
-		},
-		{
-			"from": "Random_Weather_Variation",
-			"to": "UDS_Climate_Preset",
-			"type": "Call",
-			"reason": "Return Temperature Range in Scale"
-		},
-		{
-			"from": "Random_Weather_Variation",
-			"to": "UDS_Climate_Preset",
-			"type": "Call",
-			"reason": "Return Temperature Range in Scale"
-		},
-		{
-			"from": "Random_Weather_Variation",
-			"to": "UDS_Climate_Preset",
-			"type": "Call",
-			"reason": "Return Temperature Range in Scale"
-		},
-		{
-			"from": "Random_Weather_Variation",
-			"to": "UltraDynamicSky_Functions",
-			"type": "Call",
-			"reason": "Random Value in Float Range Structure"
-		},
-		{
-			"from": "Random_Weather_Variation",
-			"to": "UDW_Material_State_Manager",
-			"type": "Call",
-			"reason": "Apply New State"
-		},
-		{
-			"from": "UDS_Client_Controller",
-			"to": "Ultra_Dynamic_Sky",
-			"type": "Call",
-			"reason": "Transition Time of Day"
-		},
-		{
-			"from": "UDS_Client_Controller",
-			"to": "Ultra_Dynamic_Sky",
-			"type": "Call",
-			"reason": "Set Date and Time"
-		},
-		{
-			"from": "UDS_Client_Controller",
-			"to": "Ultra_Dynamic_Sky",
-			"type": "Call",
-			"reason": "Set Time with Time Code"
-		},
-		{
-			"from": "UDS_Client_Controller",
-			"to": "Ultra_Dynamic_Sky",
-			"type": "Call",
-			"reason": "Apply Location Preset"
-		},
-		{
-			"from": "UDS_Client_Controller",
-			"to": "Ultra_Dynamic_Sky",
-			"type": "Call",
-			"reason": "Hard Reset Cache"
-		},
-		{
-			"from": "UDS_Client_Controller",
-			"to": "Ultra_Dynamic_Weather",
-			"type": "Call",
-			"reason": "Change Weather"
-		},
-		{
-			"from": "UDS_Client_Controller",
-			"to": "Ultra_Dynamic_Weather",
-			"type": "Call",
-			"reason": "Change to Random Weather Variation"
-		},
-		{
-			"from": "UDS_Cloud_Paint_Container",
-			"to": "Ultra_Dynamic_Sky",
-			"type": "Call",
-			"reason": "Update Painted Cloud Coverage Target"
-		},
-		{
-			"from": "UDS_Cloud_Paint_Container",
-			"to": "Ultra_Dynamic_Sky",
-			"type": "Call",
-			"reason": "Notify of Removed Cloud Paint Container"
-		},
-		{
-			"from": "UDS_Cloud_Paint_Container",
-			"to": "Ultra_Dynamic_Sky",
-			"type": "Call",
-			"reason": "Update Painted Cloud Coverage Target"
-		},
-		{
-			"from": "UDS_Cloud_Paint_Container",
-			"to": "Ultra_Dynamic_Sky",
-			"type": "Call",
-			"reason": "Update Painted Cloud Coverage Target"
-		},
-		{
-			"from": "UDS_Cloud_Paint_Container",
-			"to": "Ultra_Dynamic_Sky",
-			"type": "Call",
-			"reason": "Update Painted Cloud Coverage Target"
-		},
-		{
-			"from": "UDS_PlayerOcclusion",
-			"to": "UDS_OcclusionState",
-			"type": "Call",
-			"reason": "Save Unchanging Values"
-		},
-		{
-			"from": "UDS_PlayerOcclusion",
-			"to": "UDS_OcclusionState",
-			"type": "Call",
-			"reason": "Editor Check Settings Change"
-		},
-		{
-			"from": "UDS_PlayerOcclusion",
-			"to": "UDS_Occlusion_Volume",
-			"type": "Call",
-			"reason": "Query Occlusion Multiplier"
-		},
-		{
-			"from": "UDW_Temperature_Manager",
-			"to": "Ultra_Dynamic_Sky",
-			"type": "Call",
-			"reason": "Current Sunrise Event Time"
-		},
-		{
-			"from": "UDW_Temperature_Manager",
-			"to": "Ultra_Dynamic_Sky",
-			"type": "Call",
-			"reason": "Current Sunset Event Time"
-		},
-		{
-			"from": "UltraDynamicSky_Functions",
-			"to": "Ultra_Dynamic_Sky",
-			"type": "Call",
-			"reason": "Get DateTime"
-		},
-		{
-			"from": "UltraDynamicSky_Functions",
-			"to": "Ultra_Dynamic_Sky",
-			"type": "Call",
-			"reason": "Get TimeCode"
-		},
-		{
-			"from": "UltraDynamicSky_Functions",
-			"to": "Ultra_Dynamic_Sky",
-			"type": "Call",
-			"reason": "Is it Daytime?"
-		},
-		{
-			"from": "UltraDynamicSky_Functions",
-			"to": "Ultra_Dynamic_Sky",
-			"type": "Call",
-			"reason": "Get Day of the Week"
-		},
-		{
-			"from": "UltraDynamicSky_Functions",
-			"to": "Ultra_Dynamic_Sky",
-			"type": "Call",
-			"reason": "Set Time with Time Code"
-		},
-		{
-			"from": "UltraDynamicSky_Functions",
-			"to": "Ultra_Dynamic_Sky",
-			"type": "Call",
-			"reason": "Set Date and Time"
-		},
-		{
-			"from": "UltraDynamicSky_Functions",
-			"to": "Ultra_Dynamic_Sky",
-			"type": "Call",
-			"reason": "Transition Time of Day"
-		},
-		{
-			"from": "UltraDynamicSky_Functions",
-			"to": "Ultra_Dynamic_Sky",
-			"type": "Call",
-			"reason": "Create UDS and UDW State for Saving"
-		},
-		{
-			"from": "UltraDynamicSky_Functions",
-			"to": "Ultra_Dynamic_Sky",
-			"type": "Call",
-			"reason": "Apply Saved UDS and UDW State"
-		},
-		{
-			"from": "UltraDynamicSky_Functions",
-			"to": "Ultra_Dynamic_Sky",
-			"type": "Call",
-			"reason": "Apply Sky Configuration"
-		},
-		{
-			"from": "UltraDynamicSky_Functions",
-			"to": "Ultra_Dynamic_Sky",
-			"type": "Call",
-			"reason": "Offset Time of Day by Hours"
-		},
-		{
-			"from": "UltraDynamicSky_Functions",
-			"to": "Ultra_Dynamic_Sky",
-			"type": "Call",
-			"reason": "Offset Time by Time Span"
-		},
-		{
-			"from": "UltraDynamicWeather_Functions",
-			"to": "Ultra_Dynamic_Weather",
-			"type": "Call",
-			"reason": "Get Normalized Wind Direction"
-		},
-		{
-			"from": "UltraDynamicWeather_Functions",
-			"to": "Ultra_Dynamic_Weather",
-			"type": "Call",
-			"reason": "Get Current Temperature"
-		},
-		{
-			"from": "UltraDynamicWeather_Functions",
-			"to": "Ultra_Dynamic_Weather",
-			"type": "Call",
-			"reason": "Get Display Name for Current Weather"
-		},
-		{
-			"from": "UltraDynamicWeather_Functions",
-			"to": "Ultra_Dynamic_Weather",
-			"type": "Call",
-			"reason": "Change Weather"
-		},
-		{
-			"from": "UltraDynamicWeather_Functions",
-			"to": "Ultra_Dynamic_Weather",
-			"type": "Call",
-			"reason": "Change to Random Weather Variation"
-		},
-		{
-			"from": "UltraDynamicWeather_Functions",
-			"to": "Ultra_Dynamic_Weather",
-			"type": "Call",
-			"reason": "Get Season"
-		},
-		{
-			"from": "UltraDynamicWeather_Functions",
-			"to": "Ultra_Dynamic_Weather",
-			"type": "Call",
-			"reason": "Flash Lightning"
-		},
-		{
-			"from": "UltraDynamicWeather_Functions",
-			"to": "Ultra_Dynamic_Weather",
-			"type": "Call",
-			"reason": "Change Wind Direction"
-		},
-		{
-			"from": "UltraDynamicWeather_Functions",
-			"to": "Ultra_Dynamic_Weather",
-			"type": "Call",
-			"reason": "Get Wind Speed in Real Units"
-		},
-		{
-			"from": "UltraDynamicWeather_Functions",
-			"to": "Ultra_Dynamic_Weather",
-			"type": "Call",
-			"reason": "Apply Weather Configuration"
-		},
-		{
-			"from": "Ultra_Dynamic_Sky",
-			"to": "UDS_PlayerOcclusion",
-			"type": "Call",
-			"reason": "Initialize"
-		},
-		{
-			"from": "Ultra_Dynamic_Sky",
-			"to": "UDS_OcclusionState",
-			"type": "Call",
-			"reason": "Save Unchanging Values"
-		},
-		{
-			"from": "Ultra_Dynamic_Sky",
-			"to": "UDS_Modifier",
-			"type": "Call",
-			"reason": "Parse Maps into Arrays"
-		},
-		{
-			"from": "Ultra_Dynamic_Sky",
-			"to": "UDS_Modifier",
-			"type": "Call",
-			"reason": "Parse Maps into Arrays"
-		},
-		{
-			"from": "Ultra_Dynamic_Sky",
-			"to": "UDS_PlayerOcclusion",
-			"type": "Call",
-			"reason": "Editor Tick"
-		},
-		{
-			"from": "Ultra_Dynamic_Sky",
-			"to": "UDS_Modifier",
-			"type": "Call",
-			"reason": "Parse Maps into Arrays"
-		},
-		{
-			"from": "Ultra_Dynamic_Sky",
-			"to": "UDS_Modifier",
-			"type": "Call",
-			"reason": "Parse Maps into Arrays"
-		},
-		{
-			"from": "Ultra_Dynamic_Sky",
-			"to": "UDS_Modifier",
-			"type": "Call",
-			"reason": "Parse Maps into Arrays"
-		},
-		{
-			"from": "Ultra_Dynamic_Sky",
-			"to": "UDS_OcclusionState",
-			"type": "Call",
-			"reason": "Save Unchanging Values"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "Ultra_Dynamic_Sky",
-			"type": "Call",
-			"reason": "Start Up UDW If it Exists"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "Random_Weather_Variation",
-			"type": "Call",
-			"reason": "Clear and Restart"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "UDW_Temperature_Manager",
-			"type": "Call",
-			"reason": "Set Up Temperature Manager"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "UDW_Material_State_Manager",
-			"type": "Call",
-			"reason": "Increment Material State"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "Weather_Override_Volume",
-			"type": "Call",
-			"reason": "Force Startup"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "UDW_Material_State_Manager",
-			"type": "Call",
-			"reason": "Start Material State Sim"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "UDW_Temperature_Manager",
-			"type": "Call",
-			"reason": "Runtime Start Temperature Manager"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "UDW_Temperature_Manager",
-			"type": "Call",
-			"reason": "Get Temperature"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "UDW_Temperature_Manager",
-			"type": "Call",
-			"reason": "Get Temperature"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "UDS_PlayerOcclusion",
-			"type": "Call",
-			"reason": "Custom Global Occlusion Sample"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "UDW_Temperature_Manager",
-			"type": "Call",
-			"reason": "Calculate Temperature"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "UDS_RenderTarget_State",
-			"type": "Call",
-			"reason": "Set Render Target"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "UDS_RenderTarget_State",
-			"type": "Call",
-			"reason": "Set Size"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "UDS_RenderTarget_State",
-			"type": "Call",
-			"reason": "Canvas Brush Location"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "UDS_RenderTarget_State",
-			"type": "Call",
-			"reason": "Canvas Brush Size"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "WeatherMask",
-			"type": "Call",
-			"reason": "Calculate Masking At Location"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "UltraDynamicSky_Functions",
-			"type": "Call",
-			"reason": "Random Value in Float Range Structure"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "Weather_Override_Volume",
-			"type": "Call",
-			"reason": "Sample Point for Current Alpha"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "UDS_RenderTarget_State",
-			"type": "Call",
-			"reason": "Set Render Target"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "UDS_RenderTarget_State",
-			"type": "Call",
-			"reason": "Set Size"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "UDS_RenderTarget_State",
-			"type": "Call",
-			"reason": "Set Location"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "Ultra_Dynamic_Sky",
-			"type": "Call",
-			"reason": "Apply Console Variable with Check"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "UDS_RenderTarget_State",
-			"type": "Call",
-			"reason": "Set Render Target"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "UDS_RenderTarget_State",
-			"type": "Call",
-			"reason": "Set Size"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "WeatherMask",
-			"type": "Call",
-			"reason": "Prepare for Drawing"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "Weather_Mask_Projection_Box",
-			"type": "Call",
-			"reason": "Unready"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "Weather_Mask_Projection_Box_Component",
-			"type": "Call",
-			"reason": "Unready"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "WeatherMask",
-			"type": "Call",
-			"reason": "Prepare for Drawing"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "UDS_RenderTarget_State",
-			"type": "Call",
-			"reason": "Set Location"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "UDS_RenderTarget_State",
-			"type": "Call",
-			"reason": "Canvas Brush Location"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "UDS_RenderTarget_State",
-			"type": "Call",
-			"reason": "Canvas Brush Size"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "UDS_RenderTarget_State",
-			"type": "Call",
-			"reason": "Canvas Brush Location"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "UDS_RenderTarget_State",
-			"type": "Call",
-			"reason": "Canvas Brush Size"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "UDS_RenderTarget_State",
-			"type": "Call",
-			"reason": "Canvas Brush Location"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "UDS_RenderTarget_State",
-			"type": "Call",
-			"reason": "Canvas Brush Size"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "UDS_RenderTarget_State",
-			"type": "Call",
-			"reason": "Canvas Brush Location"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "UDS_RenderTarget_State",
-			"type": "Call",
-			"reason": "Canvas Brush Size"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "UDS_Weather_Settings",
-			"type": "Call",
-			"reason": "Get State Sources"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "UDS_Weather_Settings",
-			"type": "Call",
-			"reason": "Get State Sources"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "Ultra_Dynamic_Sky",
-			"type": "Call",
-			"reason": "Season Value for Weather from Date and Time"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "UDS_PlayerOcclusion",
-			"type": "Call",
-			"reason": "Initialize"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "Ultra_Dynamic_Sky",
-			"type": "Call",
-			"reason": "Test Point for Painted Cloud Coverage"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "UltraDynamicSky_Functions",
-			"type": "Call",
-			"reason": "Random Value in Float Range Structure"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "Weather_Override_Volume",
-			"type": "Call",
-			"reason": "Create Canvas Space Triangles"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "Weather_Override_Volume",
-			"type": "Call",
-			"reason": "Update Volume Color"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "UDS_RenderTarget_State",
-			"type": "Call",
-			"reason": "Set Location"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "Weather_Override_Volume",
-			"type": "Call",
-			"reason": "Custom Volume Behavior"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "UDS_RenderTarget_State",
-			"type": "Call",
-			"reason": "Canvas Brush Location"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "UDS_RenderTarget_State",
-			"type": "Call",
-			"reason": "Canvas Brush Size"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "Weather_Override_Volume",
-			"type": "Call",
-			"reason": "Create Canvas Space Triangles"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "Weather_Override_Volume",
-			"type": "Call",
-			"reason": "Update Volume Color"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "Ultra_Dynamic_Sky",
-			"type": "Call",
-			"reason": "Apply Console Variable with Check"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "Ultra_Dynamic_Sky",
-			"type": "Call",
-			"reason": "If DBuffer Supported"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "Weather_Override_Volume",
-			"type": "Call",
-			"reason": "Check to Update Temperature Scale"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "Random_Weather_Variation",
-			"type": "Call",
-			"reason": "Get Climate Temperature Ranges"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "Random_Weather_Variation",
-			"type": "Call",
-			"reason": "Make Climate Probability Map"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "Random_Weather_Variation",
-			"type": "Call",
-			"reason": "Make Climate Probability Map"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "Random_Weather_Variation",
-			"type": "Call",
-			"reason": "Make Climate Probability Map"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "Random_Weather_Variation",
-			"type": "Call",
-			"reason": "Make Climate Probability Map"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "Random_Weather_Variation",
-			"type": "Call",
-			"reason": "Start Up Random Weather Variation"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "UDW_Lightning_Spawn_Manager",
-			"type": "Call",
-			"reason": "Initialize"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "UDS_Weather_Settings",
-			"type": "Call",
-			"reason": "Custom Weather Behavior"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "UDS_Weather_Settings",
-			"type": "Call",
-			"reason": "Custom Weather Behavior"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "UDS_Weather_Settings",
-			"type": "Call",
-			"reason": "Get State Sources"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "Ultra_Dynamic_Sky",
-			"type": "Call",
-			"reason": "Apply Cached Incoming Modifiers"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "Ultra_Dynamic_Sky",
-			"type": "Call",
-			"reason": "Apply Console Variable with Check"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "UDS_RenderTarget_State",
-			"type": "Call",
-			"reason": "Target Needs Recenter"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "UDS_RenderTarget_State",
-			"type": "Call",
-			"reason": "Target Needs Recenter"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "UDS_RenderTarget_State",
-			"type": "Call",
-			"reason": "Target Needs Recenter"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "UDS_RenderTarget_State",
-			"type": "Call",
-			"reason": "Set Location"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "UDS_Weather_Settings",
-			"type": "Call",
-			"reason": "Get State Sources"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "UDS_Weather_Settings",
-			"type": "Call",
-			"reason": "Get State Sources"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "Weather_Override_Volume",
-			"type": "Call",
-			"reason": "Custom Volume Behavior"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "Ultra_Dynamic_Sky",
-			"type": "Call",
-			"reason": "Night Filter"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "Ultra_Dynamic_Sky",
-			"type": "Call",
-			"reason": "Apply Console Variable with Check"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "Ultra_Dynamic_Sky",
-			"type": "Call",
-			"reason": "Apply Console Variable with Check"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "Ultra_Dynamic_Sky",
-			"type": "Call",
-			"reason": "Apply Console Variable with Check"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "Ultra_Dynamic_Sky",
-			"type": "Call",
-			"reason": "Apply Console Variable with Check"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "Ultra_Dynamic_Sky",
-			"type": "Call",
-			"reason": "Apply Console Variable with Check"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "Ultra_Dynamic_Sky",
-			"type": "Call",
-			"reason": "Compare Version Strings"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "UltraDynamicSky_Functions",
-			"type": "Call",
-			"reason": "Random Value in Float Range Structure"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "UltraDynamicSky_Functions",
-			"type": "Call",
-			"reason": "Random Value in Float Range Structure"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "UltraDynamicSky_Functions",
-			"type": "Call",
-			"reason": "Random Value in Float Range Structure"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "Ultra_Dynamic_Sky",
-			"type": "Call",
-			"reason": "Current Sunset Event Time"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "Ultra_Dynamic_Sky",
-			"type": "Call",
-			"reason": "Current Sunrise Event Time"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "UDW_Temperature_Manager",
-			"type": "Call",
-			"reason": "Instant Update Temperature"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "UDS_OcclusionState",
-			"type": "Call",
-			"reason": "Save Unchanging Values"
-		},
-		{
-			"from": "Ultra_Dynamic_Weather",
-			"to": "Ultra_Dynamic_Sky",
-			"type": "Call",
-			"reason": "Construct Occlusion State"
-		},
-		{
-			"from": "VRPawn",
-			"to": "GrabComponent",
-			"type": "Call",
-			"reason": "TryGrab"
-		},
-		{
-			"from": "VRPawn",
-			"to": "GrabComponent",
-			"type": "Call",
-			"reason": "TryRelease"
-		},
-		{
-			"from": "VRPawn",
-			"to": "GrabComponent",
-			"type": "Call",
-			"reason": "TryGrab"
-		},
-		{
-			"from": "VRPawn",
-			"to": "GrabComponent",
-			"type": "Call",
-			"reason": "TryRelease"
-		},
-		{
-			"from": "VRPawn",
-			"to": "Menu",
-			"type": "Call",
-			"reason": "CloseMenu"
-		},
-		{
-			"from": "WeatherMask",
-			"to": "Ultra_Dynamic_Weather",
-			"type": "Call",
-			"reason": "Report Removal Of Mask Component"
-		},
-		{
-			"from": "WeatherMask",
-			"to": "Ultra_Dynamic_Weather",
-			"type": "Call",
-			"reason": "Latent Weather Mask Update"
-		},
-		{
-			"from": "WeatherMask",
-			"to": "Ultra_Dynamic_Weather",
-			"type": "Call",
-			"reason": "Runtime or Initializing"
-		},
-		{
-			"from": "WeatherMask",
-			"to": "UltraDynamicWeather_Functions",
-			"type": "Call",
-			"reason": "Get Ultra Dynamic Weather"
-		},
-		{
-			"from": "WeatherMask",
-			"to": "Ultra_Dynamic_Weather",
-			"type": "Call",
-			"reason": "Latent Weather Mask Update"
-		},
-		{
-			"from": "WeatherMask",
-			"to": "Ultra_Dynamic_Weather",
-			"type": "Call",
-			"reason": "Latent Weather Mask Update"
-		},
-		{
-			"from": "Weather_Mask_Brush",
-			"to": "WeatherMask",
-			"type": "Call",
-			"reason": "Editor Update"
-		},
-		{
-			"from": "Weather_Mask_Brush",
-			"to": "Ultra_Dynamic_Weather",
-			"type": "Call",
-			"reason": "Open Editor Readme Entry"
-		},
-		{
-			"from": "Weather_Mask_Projection_Box",
-			"to": "WeatherMask",
-			"type": "Call",
-			"reason": "Editor Update"
-		},
-		{
-			"from": "Weather_Mask_Projection_Box",
-			"to": "WeatherMask",
-			"type": "Call",
-			"reason": "Force Update"
-		},
-		{
-			"from": "Weather_Mask_Projection_Box",
-			"to": "Ultra_Dynamic_Weather",
-			"type": "Call",
-			"reason": "Open Editor Readme Entry"
-		},
-		{
-			"from": "Weather_Mask_Projection_Box_Component",
-			"to": "Ultra_Dynamic_Weather",
-			"type": "Call",
-			"reason": "Get Projection Box Scene Capture 2D"
-		},
-		{
-			"from": "Weather_Override_Volume",
-			"to": "Ultra_Dynamic_Weather",
-			"type": "Call",
-			"reason": "Copy Weather State"
-		},
-		{
-			"from": "Weather_Override_Volume",
-			"to": "Ultra_Dynamic_Weather",
-			"type": "Call",
-			"reason": "Lerp Between Weather States"
-		},
-		{
-			"from": "Weather_Override_Volume",
-			"to": "Ultra_Dynamic_Weather",
-			"type": "Call",
-			"reason": "Update WOV Render Target"
-		},
-		{
-			"from": "Weather_Override_Volume",
-			"to": "Ultra_Dynamic_Weather",
-			"type": "Call",
-			"reason": "Update WOV Render Target"
-		},
-		{
-			"from": "Weather_Override_Volume",
-			"to": "Ultra_Dynamic_Weather",
-			"type": "Call",
-			"reason": "Sort Weather Override Volumes"
-		},
-		{
-			"from": "Weather_Override_Volume",
-			"to": "Ultra_Dynamic_Weather",
-			"type": "Call",
-			"reason": "Update WOV Render Target"
-		},
-		{
-			"from": "Weather_Override_Volume",
-			"to": "Ultra_Dynamic_Weather",
-			"type": "Call",
-			"reason": "Copy Weather State"
-		},
-		{
-			"from": "Weather_Override_Volume",
-			"to": "Ultra_Dynamic_Weather",
-			"type": "Call",
-			"reason": "Material Effect Draw Color from State"
-		},
-		{
-			"from": "Weather_Override_Volume",
-			"to": "Ultra_Dynamic_Weather",
-			"type": "Call",
-			"reason": "Latent WOV Target Update"
-		},
-		{
-			"from": "Weather_Override_Volume",
-			"to": "Ultra_Dynamic_Weather",
-			"type": "Call",
-			"reason": "Convert Temperature Scale"
-		},
-		{
-			"from": "Weather_Override_Volume",
-			"to": "Ultra_Dynamic_Weather",
-			"type": "Call",
-			"reason": "Convert Temperature Scale"
-		},
-		{
-			"from": "Weather_Override_Volume",
-			"to": "Ultra_Dynamic_Weather",
-			"type": "Call",
-			"reason": "Convert Temperature Scale"
-		},
-		{
-			"from": "Weather_Override_Volume",
-			"to": "Ultra_Dynamic_Weather",
-			"type": "Call",
-			"reason": "Convert Temperature Scale"
-		},
-		{
-			"from": "Weather_Override_Volume",
-			"to": "Ultra_Dynamic_Weather",
-			"type": "Call",
-			"reason": "Convert Temperature Scale"
-		},
-		{
-			"from": "Weather_Override_Volume",
-			"to": "Ultra_Dynamic_Weather",
-			"type": "Call",
-			"reason": "Convert Temperature Scale"
-		},
-		{
-			"from": "Weather_Override_Volume",
-			"to": "Ultra_Dynamic_Weather",
-			"type": "Call",
-			"reason": "Convert Temperature Scale"
-		},
-		{
-			"from": "Weather_Override_Volume",
-			"to": "Ultra_Dynamic_Weather",
-			"type": "Call",
-			"reason": "Convert Temperature Scale"
-		},
-		{
-			"from": "Weather_Override_Volume",
-			"to": "Random_Weather_Variation",
-			"type": "Call",
-			"reason": "Get Climate Temperature Ranges"
-		},
-		{
-			"from": "Weather_Override_Volume",
-			"to": "Random_Weather_Variation",
-			"type": "Call",
-			"reason": "Make Climate Probability Map"
-		},
-		{
-			"from": "Weather_Override_Volume",
-			"to": "Random_Weather_Variation",
-			"type": "Call",
-			"reason": "Make Climate Probability Map"
-		},
-		{
-			"from": "Weather_Override_Volume",
-			"to": "Random_Weather_Variation",
-			"type": "Call",
-			"reason": "Make Climate Probability Map"
-		},
-		{
-			"from": "Weather_Override_Volume",
-			"to": "Random_Weather_Variation",
-			"type": "Call",
-			"reason": "Make Climate Probability Map"
-		},
-		{
-			"from": "Weather_Override_Volume",
-			"to": "Ultra_Dynamic_Weather",
-			"type": "Call",
-			"reason": "Copy Weather State"
-		},
-		{
-			"from": "Weather_Override_Volume",
-			"to": "Ultra_Dynamic_Weather",
-			"type": "Call",
-			"reason": "Add Weather Override Volume to Array"
-		},
-		{
-			"from": "Weather_Override_Volume",
-			"to": "UDW_Temperature_Manager",
-			"type": "Call",
-			"reason": "Runtime Start Temperature Manager"
-		},
-		{
-			"from": "Weather_Override_Volume",
-			"to": "UDW_Temperature_Manager",
-			"type": "Call",
-			"reason": "Set Up Temperature Manager"
-		},
-		{
-			"from": "Weather_Override_Volume",
-			"to": "UDW_Material_State_Manager",
-			"type": "Call",
-			"reason": "Start Material State Sim"
-		},
-		{
-			"from": "Weather_Override_Volume",
-			"to": "Ultra_Dynamic_Weather",
-			"type": "Call",
-			"reason": "Copy Weather State"
-		},
-		{
-			"from": "Weather_Override_Volume",
-			"to": "Ultra_Dynamic_Weather",
-			"type": "Call",
-			"reason": "Copy Weather State"
-		},
-		{
-			"from": "Weather_Override_Volume",
-			"to": "Ultra_Dynamic_Weather",
-			"type": "Call",
-			"reason": "Level Editor WOV Update"
-		},
-		{
-			"from": "Weather_Override_Volume",
-			"to": "UDW_Temperature_Manager",
-			"type": "Call",
-			"reason": "Set Up Temperature Manager"
-		},
-		{
-			"from": "Weather_Override_Volume",
-			"to": "UDW_Material_State_Manager",
-			"type": "Call",
-			"reason": "Increment Material State"
-		},
-		{
-			"from": "Weather_Override_Volume",
-			"to": "Random_Weather_Variation",
-			"type": "Call",
-			"reason": "Get State for Saving"
-		},
-		{
-			"from": "Weather_Override_Volume",
-			"to": "Ultra_Dynamic_Weather",
-			"type": "Call",
-			"reason": "Weather State Object to Structure"
-		},
-		{
-			"from": "Weather_Override_Volume",
-			"to": "Random_Weather_Variation",
-			"type": "Call",
-			"reason": "Apply State"
-		},
-		{
-			"from": "Weather_Override_Volume",
-			"to": "Ultra_Dynamic_Weather",
-			"type": "Call",
-			"reason": "Copy Weather State Structure to Object"
-		},
-		{
-			"from": "Weather_Override_Volume",
-			"to": "UDW_Material_State_Manager",
-			"type": "Call",
-			"reason": "Update Change Speeds"
-		},
-		{
-			"from": "Weather_Override_Volume",
-			"to": "Ultra_Dynamic_Weather",
-			"type": "Call",
-			"reason": "Copy Weather State"
-		},
-		{
-			"from": "Weather_Override_Volume",
-			"to": "Ultra_Dynamic_Weather",
-			"type": "Call",
-			"reason": "Open Editor Readme Entry"
-		},
-		{
-			"from": "Weather_Override_Volume",
-			"to": "Random_Weather_Variation",
-			"type": "Call",
-			"reason": "Start Up Random Weather Variation"
-		},
-		{
-			"from": "Wind_Physics_Force",
-			"to": "Ultra_Dynamic_Weather",
-			"type": "Call",
-			"reason": "Get Normalized Wind Direction"
-		},
-		{
-			"from": "Wind_Physics_Force",
-			"to": "Ultra_Dynamic_Weather",
-			"type": "Call",
-			"reason": "Test Component for Wind Exposure"
+			"reason": "TravelToLevelName"
 		}
 	]
 }
