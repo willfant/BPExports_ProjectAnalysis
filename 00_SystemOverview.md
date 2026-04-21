@@ -26,7 +26,7 @@
 
 ## Metrics
 - Blueprint count: 22
-- Cross-blueprint edges: 205
+- Cross-blueprint edges: 282
 
 ## What this analysis does
 - Detects likely dependencies between exported Blueprints.

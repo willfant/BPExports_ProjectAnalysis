@@ -2,7 +2,7 @@
 
 ## BFL_Debug
 - Role: Shared Service / Hub
-- Incoming dependencies: 99
+- Incoming dependencies: 156
 - Outgoing dependencies: 1
 - External reference dependencies: 0
 - Functions/Graphs: 9
@@ -18,7 +18,7 @@
 
 ## BP_AudioManager
 - Role: General Runtime Blueprint
-- Incoming dependencies: 0
+- Incoming dependencies: 2
 - Outgoing dependencies: 41
 - External reference dependencies: 2
 - Functions/Graphs: 26
@@ -50,10 +50,10 @@
 
 ## BP_GhostManager
 - Role: General Runtime Blueprint
-- Incoming dependencies: 11
-- Outgoing dependencies: 21
+- Incoming dependencies: 15
+- Outgoing dependencies: 28
 - External reference dependencies: 1
-- Functions/Graphs: 20
+- Functions/Graphs: 25
 - Problems: 5
 
 ## BP_GhostPlaceholder
@@ -90,11 +90,11 @@
 
 ## BP_ObjectiveManager
 - Role: General Runtime Blueprint
-- Incoming dependencies: 16
-- Outgoing dependencies: 7
+- Incoming dependencies: 20
+- Outgoing dependencies: 9
 - External reference dependencies: 1
-- Functions/Graphs: 12
-- Problems: 7
+- Functions/Graphs: 15
+- Problems: 8
 
 ## BP_Portal
 - Role: General Runtime Blueprint
@@ -106,19 +106,19 @@
 
 ## BP_PuzzleController
 - Role: System Orchestrator
-- Incoming dependencies: 0
-- Outgoing dependencies: 42
+- Incoming dependencies: 5
+- Outgoing dependencies: 44
 - External reference dependencies: 5
-- Functions/Graphs: 33
-- Problems: 10
+- Functions/Graphs: 34
+- Problems: 20
 
 ## BP_SaveManager
 - Role: General Runtime Blueprint
-- Incoming dependencies: 43
-- Outgoing dependencies: 10
+- Incoming dependencies: 37
+- Outgoing dependencies: 76
 - External reference dependencies: 2
-- Functions/Graphs: 31
-- Problems: 15
+- Functions/Graphs: 15
+- Problems: 19
 
 ## BP_ScareBase
 - Role: General Runtime Blueprint
@@ -130,7 +130,7 @@
 
 ## BP_ScareManager
 - Role: General Runtime Blueprint
-- Incoming dependencies: 6
+- Incoming dependencies: 7
 - Outgoing dependencies: 11
 - External reference dependencies: 1
 - Functions/Graphs: 27
@@ -154,25 +154,25 @@
 
 ## BP_TransitionManager
 - Role: General Runtime Blueprint
-- Incoming dependencies: 8
+- Incoming dependencies: 9
 - Outgoing dependencies: 31
 - External reference dependencies: 0
 - Functions/Graphs: 12
-- Problems: 2
+- Problems: 9
 
 ## BP_WorldModeSystem
 - Role: General Runtime Blueprint
-- Incoming dependencies: 10
-- Outgoing dependencies: 10
+- Incoming dependencies: 12
+- Outgoing dependencies: 9
 - External reference dependencies: 1
 - Functions/Graphs: 9
-- Problems: 1
+- Problems: 2
 
 ## GI_Echoes
 - Role: System Orchestrator
-- Incoming dependencies: 9
-- Outgoing dependencies: 18
-- External reference dependencies: 6
-- Functions/Graphs: 50
-- Problems: 14
+- Incoming dependencies: 16
+- Outgoing dependencies: 19
+- External reference dependencies: 8
+- Functions/Graphs: 55
+- Problems: 19
 

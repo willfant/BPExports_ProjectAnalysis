@@ -35,6 +35,13 @@
 ### Read by Blueprints
 - BP_ScareManager
 
+## AudioManagerRef
+### Written by Blueprints
+- None detected
+
+### Read by Blueprints
+- GI_Echoes
+
 ## AutoFinishDelay
 ### Written by Blueprints
 - None detected
@@ -63,7 +70,7 @@
 ### Read by Blueprints
 - BP_ScareManager
 
-## bAutoCreateSaveOnBeginPlay
+## bAutoInitializeSaveOnBeginPlay
 ### Written by Blueprints
 - None detected
 
@@ -163,7 +170,7 @@
 
 ## bEnableAutoSave
 ### Written by Blueprints
-- None detected
+- BP_SaveManager
 
 ### Read by Blueprints
 - BP_SaveManager
@@ -174,13 +181,6 @@
 
 ### Read by Blueprints
 - BP_ObjectiveManager
-
-## bEnableSaveDebug
-### Written by Blueprints
-- None detected
-
-### Read by Blueprints
-- BP_SaveManager
 
 ## BestPuzzleRowName
 ### Written by Blueprints
@@ -273,34 +273,6 @@
 
 ### Read by Blueprints
 - None detected
-
-## bIsabel_CandlesComplete
-### Written by Blueprints
-- BP_SaveManager
-
-### Read by Blueprints
-- BP_SaveManager
-
-## bIsabel_DiaryComplete
-### Written by Blueprints
-- BP_SaveManager
-
-### Read by Blueprints
-- BP_SaveManager
-
-## bIsabel_MirrorComplete
-### Written by Blueprints
-- BP_SaveManager
-
-### Read by Blueprints
-- BP_SaveManager
-
-## bIsabel_MR_EntrySolved
-### Written by Blueprints
-- BP_SaveManager
-
-### Read by Blueprints
-- BP_SaveManager
 
 ## bIsApplyingLoadedData
 ### Written by Blueprints
@@ -446,10 +418,12 @@
 ## CachedGI
 ### Written by Blueprints
 - BP_DebugManager
+- BP_SaveManager
 - BP_TransitionManager
 
 ### Read by Blueprints
 - BP_DebugManager
+- BP_SaveManager
 - BP_TransitionManager
 
 ## CachedSaveManager
@@ -481,14 +455,19 @@
 ### Read by Blueprints
 - BPFL_Level
 
+## ClearedGhostIds
+### Written by Blueprints
+- BP_GhostManager
+
+### Read by Blueprints
+- BP_GhostManager
+
 ## CompletedPuzzleIds
 ### Written by Blueprints
 - BP_PuzzleController
-- BP_SaveManager
 
 ### Read by Blueprints
 - BP_PuzzleController
-- BP_SaveManager
 
 ## CompletedStepIds
 ### Written by Blueprints
@@ -559,7 +538,6 @@
 - BP_GhostManager
 - BP_ObjectiveManager
 - BP_PuzzleController
-- BP_SaveManager
 - BP_ScareManager
 - GI_Echoes
 
@@ -567,7 +545,6 @@
 - BP_AudioManager
 - BP_GhostManager
 - BP_PuzzleController
-- BP_SaveManager
 - BP_ScareManager
 - GI_Echoes
 
@@ -582,28 +559,12 @@
 ### Written by Blueprints
 - BP_AudioManager
 - BP_GhostManager
-- BP_SaveManager
 - BP_ScareManager
 
 ### Read by Blueprints
 - BP_AudioManager
 - BP_GhostManager
-- BP_SaveManager
 - BP_ScareManager
-
-## CurrentLevel
-### Written by Blueprints
-- BP_SaveManager
-
-### Read by Blueprints
-- BP_SaveManager
-
-## CurrentLevelName
-### Written by Blueprints
-- BP_SaveManager
-
-### Read by Blueprints
-- BP_SaveManager
 
 ## CurrentMusicSound
 ### Written by Blueprints
@@ -638,18 +599,9 @@
 ## CurrentPuzzleId
 ### Written by Blueprints
 - BP_PuzzleController
-- BP_SaveManager
 
 ### Read by Blueprints
 - BP_PuzzleController
-- BP_SaveManager
-
-## CurrentPuzzleStepIndex
-### Written by Blueprints
-- BP_SaveManager
-
-### Read by Blueprints
-- BP_SaveManager
 
 ## CurrentQuestId
 ### Written by Blueprints
@@ -657,6 +609,7 @@
 - GI_Echoes
 
 ### Read by Blueprints
+- BP_ObjectiveManager
 - GI_Echoes
 
 ## CurrentSaveData
@@ -725,14 +678,12 @@
 ## CurrentWorldMode
 ### Written by Blueprints
 - BP_AudioManager
-- BP_SaveManager
 - BP_ScareManager
 - BP_WorldModeSystem
 - GI_Echoes
 
 ### Read by Blueprints
 - BP_AudioManager
-- BP_SaveManager
 - BP_ScareManager
 - BP_WorldModeSystem
 - GI_Echoes
@@ -743,13 +694,6 @@
 
 ### Read by Blueprints
 - GI_Echoes
-
-## DebugDuration
-### Written by Blueprints
-- None detected
-
-### Read by Blueprints
-- BP_SaveManager
 
 ## DebugEnabled
 ### Written by Blueprints
@@ -797,13 +741,6 @@
 ### Read by Blueprints
 - GI_Echoes
 
-## DebugPrefix
-### Written by Blueprints
-- None detected
-
-### Read by Blueprints
-- BP_SaveManager
-
 ## DebugSenderName
 ### Written by Blueprints
 - None detected
@@ -831,6 +768,13 @@
 
 ### Read by Blueprints
 - GI_Echoes
+
+## DEPRECATED__CompletedPuzzleIds
+### Written by Blueprints
+- None detected
+
+### Read by Blueprints
+- BP_PuzzleController
 
 ## DistOk
 ### Written by Blueprints
@@ -1190,6 +1134,13 @@
 ### Read by Blueprints
 - BP_GhostManager
 
+## OldWorldModeLocal
+### Written by Blueprints
+- BP_WorldModeSystem
+
+### Read by Blueprints
+- BP_WorldModeSystem
+
 ## Out World Mode
 ### Written by Blueprints
 - GI_Echoes
@@ -1302,6 +1253,13 @@
 ### Read by Blueprints
 - BP_Portal
 
+## PuzzleControllerRef
+### Written by Blueprints
+- None detected
+
+### Read by Blueprints
+- GI_Echoes
+
 ## RandomPick
 ### Written by Blueprints
 - None detected
@@ -1372,68 +1330,12 @@
 ### Read by Blueprints
 - BP_SaveManager
 
-## SavedCompletedPuzzleIds
-### Written by Blueprints
-- BP_SaveManager
-
-### Read by Blueprints
-- BP_SaveManager
-
-## SavedCurrentLevel
-### Written by Blueprints
-- BP_SaveManager
-
-### Read by Blueprints
-- BP_SaveManager
-
-## SavedCurrentLevelName
-### Written by Blueprints
-- BP_SaveManager
-
-### Read by Blueprints
-- BP_SaveManager
-
-## SavedCurrentPuzzleId
-### Written by Blueprints
-- BP_SaveManager
-
-### Read by Blueprints
-- BP_SaveManager
-
-## SavedCurrentPuzzleStepIndex
-### Written by Blueprints
-- BP_SaveManager
-
-### Read by Blueprints
-- BP_SaveManager
-
-## SavedGhostId
-### Written by Blueprints
-- BP_SaveManager
-
-### Read by Blueprints
-- BP_SaveManager
-
-## SavedGhostState
-### Written by Blueprints
-- BP_SaveManager
-
-### Read by Blueprints
-- BP_SaveManager
-
 ## SavedLevelRef
 ### Written by Blueprints
 - GI_Echoes
 
 ### Read by Blueprints
 - GI_Echoes
-
-## SavedWorldMode
-### Written by Blueprints
-- BP_SaveManager
-
-### Read by Blueprints
-- BP_SaveManager
 
 ## SaveManagerRef
 ### Written by Blueprints
@@ -1508,6 +1410,7 @@
 ### Read by Blueprints
 - BP_GhostManager
 - BP_PuzzleController
+- GI_Echoes
 
 ## ScaresDataTable
 ### Written by Blueprints
@@ -1522,6 +1425,13 @@
 
 ### Read by Blueprints
 - None detected
+
+## SnapshotLoc
+### Written by Blueprints
+- BP_SaveManager
+
+### Read by Blueprints
+- BP_SaveManager
 
 ## SpawnOk
 ### Written by Blueprints
@@ -1686,7 +1596,7 @@
 - GI_Echoes
 
 ### Read by Blueprints
-- None detected
+- GI_Echoes
 
 ## WorldOk
 ### Written by Blueprints
