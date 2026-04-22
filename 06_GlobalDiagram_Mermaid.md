@@ -12,9 +12,8 @@ flowchart TD
     BP_DebugManager -->|Call| GI_Echoes
     BP_GhostManager -->|Reference| BP_SaveManager
     BP_GhostManager -->|Call| BFL_Debug
+    BP_GhostManager -->|Call| GI_Echoes
     BP_GhostManager -->|Call| BP_SaveManager
-    BP_GhostManager -->|Call| BP_ObjectiveManager
-    BP_GhostManager -->|Call| BP_ScareManager
     BP_GhostPlaceholder -->|Call| BFL_Debug
     BP_ObjectiveManager -->|Reference| BP_SaveManager
     BP_ObjectiveManager -->|Call| GI_Echoes
@@ -45,10 +44,12 @@ flowchart TD
     BP_SaveManager -->|Call| BP_TransitionManager
     BP_ScareBase -->|Call| BFL_Debug
     BP_ScareManager -->|Reference| BP_WorldModeSystem
+    BP_ScareManager -->|Reference| BP_GhostManager
     BP_ScareManager -->|Call| BFL_Debug
     BP_ScareManager -->|Call| BP_ScareBase
-    BP_ScareManager -->|Call| GI_Echoes
     BP_ScareManager -->|Call| BP_WorldModeSystem
+    BP_ScareManager -->|Call| GI_Echoes
+    BP_ScareManager -->|Call| BP_GhostManager
     BP_Scare_Whisper -->|Call| BFL_Debug
     BP_TransitionManager -->|Call| BFL_Debug
     BP_TransitionManager -->|Call| GI_Echoes
@@ -66,6 +67,4 @@ flowchart TD
     GI_Echoes -->|Reference| BP_PuzzleController
     GI_Echoes -->|Reference| BP_AudioManager
     GI_Echoes -->|Call| BFL_Debug
-    GI_Echoes -->|Call| BP_SaveManager
-    GI_Echoes -->|Call| BP_TransitionManager
 ```

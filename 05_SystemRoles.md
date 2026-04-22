@@ -2,10 +2,10 @@
 
 ## BFL_Debug
 - Role: Shared Service / Hub
-- Incoming dependencies: 156
+- Incoming dependencies: 247
 - Outgoing dependencies: 1
 - External reference dependencies: 0
-- Functions/Graphs: 9
+- Functions/Graphs: 10
 - Problems: 0
 
 ## BPFL_Level
@@ -50,11 +50,11 @@
 
 ## BP_GhostManager
 - Role: General Runtime Blueprint
-- Incoming dependencies: 15
-- Outgoing dependencies: 28
+- Incoming dependencies: 17
+- Outgoing dependencies: 25
 - External reference dependencies: 1
-- Functions/Graphs: 25
-- Problems: 5
+- Functions/Graphs: 19
+- Problems: 4
 
 ## BP_GhostPlaceholder
 - Role: Worker / Leaf Blueprint
@@ -90,11 +90,11 @@
 
 ## BP_ObjectiveManager
 - Role: General Runtime Blueprint
-- Incoming dependencies: 20
+- Incoming dependencies: 19
 - Outgoing dependencies: 9
 - External reference dependencies: 1
 - Functions/Graphs: 15
-- Problems: 8
+- Problems: 9
 
 ## BP_Portal
 - Role: General Runtime Blueprint
@@ -114,11 +114,11 @@
 
 ## BP_SaveManager
 - Role: General Runtime Blueprint
-- Incoming dependencies: 37
+- Incoming dependencies: 32
 - Outgoing dependencies: 76
 - External reference dependencies: 2
 - Functions/Graphs: 15
-- Problems: 19
+- Problems: 21
 
 ## BP_ScareBase
 - Role: General Runtime Blueprint
@@ -130,11 +130,11 @@
 
 ## BP_ScareManager
 - Role: General Runtime Blueprint
-- Incoming dependencies: 7
-- Outgoing dependencies: 11
-- External reference dependencies: 1
-- Functions/Graphs: 27
-- Problems: 24
+- Incoming dependencies: 5
+- Outgoing dependencies: 97
+- External reference dependencies: 2
+- Functions/Graphs: 35
+- Problems: 17
 
 ## BP_Scare_Whisper
 - Role: General Runtime Blueprint
@@ -154,7 +154,7 @@
 
 ## BP_TransitionManager
 - Role: General Runtime Blueprint
-- Incoming dependencies: 9
+- Incoming dependencies: 5
 - Outgoing dependencies: 31
 - External reference dependencies: 0
 - Functions/Graphs: 12
@@ -162,7 +162,7 @@
 
 ## BP_WorldModeSystem
 - Role: General Runtime Blueprint
-- Incoming dependencies: 12
+- Incoming dependencies: 13
 - Outgoing dependencies: 9
 - External reference dependencies: 1
 - Functions/Graphs: 9
@@ -170,9 +170,9 @@
 
 ## GI_Echoes
 - Role: System Orchestrator
-- Incoming dependencies: 16
-- Outgoing dependencies: 19
+- Incoming dependencies: 18
+- Outgoing dependencies: 20
 - External reference dependencies: 8
-- Functions/Graphs: 55
-- Problems: 19
+- Functions/Graphs: 46
+- Problems: 12
 

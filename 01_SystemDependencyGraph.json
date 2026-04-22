@@ -2,9 +2,9 @@
 	"nodes": [
 		{
 			"name": "BFL_Debug",
-			"functions": 9,
+			"functions": 10,
 			"variables": 0,
-			"call_edges": 14,
+			"call_edges": 16,
 			"problems": 0
 		},
 		{
@@ -44,10 +44,10 @@
 		},
 		{
 			"name": "BP_GhostManager",
-			"functions": 25,
-			"variables": 19,
-			"call_edges": 99,
-			"problems": 5
+			"functions": 19,
+			"variables": 18,
+			"call_edges": 90,
+			"problems": 4
 		},
 		{
 			"name": "BP_GhostPlaceholder",
@@ -82,7 +82,7 @@
 			"functions": 15,
 			"variables": 10,
 			"call_edges": 51,
-			"problems": 8
+			"problems": 9
 		},
 		{
 			"name": "BP_Portal",
@@ -103,7 +103,7 @@
 			"functions": 15,
 			"variables": 19,
 			"call_edges": 161,
-			"problems": 19
+			"problems": 21
 		},
 		{
 			"name": "BP_ScareBase",
@@ -114,10 +114,10 @@
 		},
 		{
 			"name": "BP_ScareManager",
-			"functions": 27,
-			"variables": 20,
-			"call_edges": 71,
-			"problems": 24
+			"functions": 35,
+			"variables": 22,
+			"call_edges": 205,
+			"problems": 17
 		},
 		{
 			"name": "BP_Scare_Whisper",
@@ -149,10 +149,10 @@
 		},
 		{
 			"name": "GI_Echoes",
-			"functions": 55,
-			"variables": 51,
-			"call_edges": 92,
-			"problems": 19
+			"functions": 46,
+			"variables": 37,
+			"call_edges": 89,
+			"problems": 12
 		}
 	],
 	"edges": [
@@ -434,21 +434,21 @@
 		},
 		{
 			"from": "BP_GhostManager",
-			"to": "BP_SaveManager",
+			"to": "BFL_Debug",
 			"type": "Call",
-			"reason": "RequestAutoSave"
+			"reason": "DebugInfo"
 		},
 		{
 			"from": "BP_GhostManager",
 			"to": "BFL_Debug",
 			"type": "Call",
-			"reason": "DebugWarning"
+			"reason": "DebugCritical"
 		},
 		{
 			"from": "BP_GhostManager",
-			"to": "BFL_Debug",
+			"to": "GI_Echoes",
 			"type": "Call",
-			"reason": "DebugWarning"
+			"reason": "RegisterGhostManager"
 		},
 		{
 			"from": "BP_GhostManager",
@@ -472,79 +472,61 @@
 			"from": "BP_GhostManager",
 			"to": "BFL_Debug",
 			"type": "Call",
-			"reason": "DebugMessage"
-		},
-		{
-			"from": "BP_GhostManager",
-			"to": "BP_ObjectiveManager",
-			"type": "Call",
-			"reason": "InitializeObjectivesForGhost"
+			"reason": "DebugWarning"
 		},
 		{
 			"from": "BP_GhostManager",
 			"to": "BFL_Debug",
 			"type": "Call",
-			"reason": "DebugMessage"
+			"reason": "DebugCritical"
 		},
 		{
 			"from": "BP_GhostManager",
 			"to": "BFL_Debug",
 			"type": "Call",
-			"reason": "DebugMessage"
+			"reason": "DebugInfo"
 		},
 		{
 			"from": "BP_GhostManager",
 			"to": "BFL_Debug",
 			"type": "Call",
-			"reason": "DebugMessage"
+			"reason": "DebugInfo"
+		},
+		{
+			"from": "BP_GhostManager",
+			"to": "BP_SaveManager",
+			"type": "Call",
+			"reason": "RequestAutoSave"
 		},
 		{
 			"from": "BP_GhostManager",
 			"to": "BFL_Debug",
 			"type": "Call",
-			"reason": "DebugMessage"
+			"reason": "DebugWarning"
 		},
 		{
 			"from": "BP_GhostManager",
 			"to": "BFL_Debug",
 			"type": "Call",
-			"reason": "DebugMessage"
+			"reason": "DebugInfo"
 		},
 		{
 			"from": "BP_GhostManager",
 			"to": "BFL_Debug",
 			"type": "Call",
-			"reason": "DebugMessage"
-		},
-		{
-			"from": "BP_GhostManager",
-			"to": "BP_ScareManager",
-			"type": "Call",
-			"reason": "InitializeScaresForGhost"
+			"reason": "DebugInfo"
 		},
 		{
 			"from": "BP_GhostManager",
 			"to": "BFL_Debug",
 			"type": "Call",
-			"reason": "DebugMessage"
+			"reason": "DebugInfo"
 		},
 		{
 			"from": "BP_GhostManager",
 			"to": "BFL_Debug",
 			"type": "Call",
-			"reason": "DebugMessage"
-		},
-		{
-			"from": "BP_GhostManager",
-			"to": "BP_ScareManager",
-			"type": "Call",
-			"reason": "UpdateGhostState"
-		},
-		{
-			"from": "BP_GhostManager",
-			"to": "BFL_Debug",
-			"type": "Call",
-			"reason": "DebugMessage"
+			"reason": "DebugWarning"
 		},
 		{
 			"from": "BP_GhostManager",
@@ -1400,9 +1382,201 @@
 		},
 		{
 			"from": "BP_ScareManager",
+			"to": "BP_GhostManager",
+			"type": "Reference",
+			"reason": "GhostManagerRef"
+		},
+		{
+			"from": "BP_ScareManager",
 			"to": "BFL_Debug",
 			"type": "Call",
-			"reason": "DebugMessage"
+			"reason": "DebugWarning"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugWarning"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugInfo"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugInfo"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugInfo"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugInfo"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugWarning"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugInfo"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugInfo"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugInfo"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugInfo"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugCritical"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugWarning"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugInfo"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugWarning"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugInfo"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
 		},
 		{
 			"from": "BP_ScareManager",
@@ -1424,27 +1598,87 @@
 		},
 		{
 			"from": "BP_ScareManager",
-			"to": "GI_Echoes",
+			"to": "BFL_Debug",
 			"type": "Call",
-			"reason": "GetCurrentWorldMode"
+			"reason": "DebugInfo"
 		},
 		{
 			"from": "BP_ScareManager",
 			"to": "BFL_Debug",
 			"type": "Call",
-			"reason": "DebugMessage"
+			"reason": "GetSenderName"
 		},
 		{
 			"from": "BP_ScareManager",
 			"to": "BFL_Debug",
 			"type": "Call",
-			"reason": "DebugMessage"
+			"reason": "DebugCritical"
 		},
 		{
 			"from": "BP_ScareManager",
 			"to": "BFL_Debug",
 			"type": "Call",
-			"reason": "DebugMessage"
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugWarning"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugInfo"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugInfo"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugInfo"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugInfo"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
 		},
 		{
 			"from": "BP_ScareManager",
@@ -1456,7 +1690,271 @@
 			"from": "BP_ScareManager",
 			"to": "BFL_Debug",
 			"type": "Call",
-			"reason": "DebugMessage"
+			"reason": "DebugCritical"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugWarning"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugInfo"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugInfo"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugInfo"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugInfo"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugInfo"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugCritical"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "GI_Echoes",
+			"type": "Call",
+			"reason": "RegisterScareManager"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugInfo"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugWarning"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BP_WorldModeSystem",
+			"type": "Call",
+			"reason": "GetWorldMode"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugInfo"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugInfo"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugInfo"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugWarning"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BP_GhostManager",
+			"type": "Call",
+			"reason": "HasActiveGhost"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugInfo"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugWarning"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugInfo"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugCritical"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "GI_Echoes",
+			"type": "Call",
+			"reason": "GetGhostManagerRef"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugWarning"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugInfo"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugWarning"
+		},
+		{
+			"from": "BP_ScareManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
 		},
 		{
 			"from": "BP_Scare_Whisper",
@@ -1552,7 +2050,7 @@
 			"from": "BP_TransitionManager",
 			"to": "GI_Echoes",
 			"type": "Call",
-			"reason": "SetPendingTransition"
+			"reason": "SetStartupPendingTransition"
 		},
 		{
 			"from": "BP_TransitionManager",
@@ -1618,7 +2116,7 @@
 			"from": "BP_TransitionManager",
 			"to": "GI_Echoes",
 			"type": "Call",
-			"reason": "ClearPendingTransition"
+			"reason": "ClearStartupPendingTransition"
 		},
 		{
 			"from": "BP_TransitionManager",
@@ -1786,67 +2284,73 @@
 			"from": "GI_Echoes",
 			"to": "BFL_Debug",
 			"type": "Call",
-			"reason": "DebugMessage"
+			"reason": "DebugInfo"
 		},
 		{
 			"from": "GI_Echoes",
 			"to": "BFL_Debug",
 			"type": "Call",
-			"reason": "DebugMessage"
+			"reason": "DebugInfo"
 		},
 		{
 			"from": "GI_Echoes",
-			"to": "BP_SaveManager",
+			"to": "BFL_Debug",
 			"type": "Call",
-			"reason": "GetCurrentWorldMode"
+			"reason": "DebugInfo"
 		},
 		{
 			"from": "GI_Echoes",
-			"to": "BP_TransitionManager",
+			"to": "BFL_Debug",
 			"type": "Call",
-			"reason": "TravelToLevelRef"
+			"reason": "DebugInfo"
 		},
 		{
 			"from": "GI_Echoes",
-			"to": "BP_TransitionManager",
+			"to": "BFL_Debug",
 			"type": "Call",
-			"reason": "TravelToLevelRef"
+			"reason": "DebugInfo"
 		},
 		{
 			"from": "GI_Echoes",
-			"to": "BP_SaveManager",
+			"to": "BFL_Debug",
 			"type": "Call",
-			"reason": "IsSaveSystemReady"
+			"reason": "DebugInfo"
 		},
 		{
 			"from": "GI_Echoes",
-			"to": "BP_SaveManager",
+			"to": "BFL_Debug",
 			"type": "Call",
-			"reason": "GetCurrentWorldMode"
+			"reason": "DebugInfo"
 		},
 		{
 			"from": "GI_Echoes",
-			"to": "BP_SaveManager",
+			"to": "BFL_Debug",
 			"type": "Call",
-			"reason": "GetCurrentLevel"
+			"reason": "DebugInfo"
 		},
 		{
 			"from": "GI_Echoes",
-			"to": "BP_SaveManager",
+			"to": "BFL_Debug",
 			"type": "Call",
-			"reason": "GetCurrentLevel"
+			"reason": "DebugInfo"
 		},
 		{
 			"from": "GI_Echoes",
-			"to": "BP_TransitionManager",
+			"to": "BFL_Debug",
 			"type": "Call",
-			"reason": "TravelToLevelName"
+			"reason": "DebugInfo"
 		},
 		{
 			"from": "GI_Echoes",
-			"to": "BP_TransitionManager",
+			"to": "BFL_Debug",
 			"type": "Call",
-			"reason": "TravelToLevelName"
+			"reason": "DebugInfo"
+		},
+		{
+			"from": "GI_Echoes",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugInfo"
 		}
 	]
 }

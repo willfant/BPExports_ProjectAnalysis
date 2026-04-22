@@ -37,7 +37,7 @@
 
 ## AudioManagerRef
 ### Written by Blueprints
-- None detected
+- GI_Echoes
 
 ### Read by Blueprints
 - GI_Echoes
@@ -262,17 +262,14 @@
 ## bInitialized
 ### Written by Blueprints
 - BP_AudioManager
-- BP_WorldModeSystem
-
-### Read by Blueprints
-- BP_WorldModeSystem
-
-## bInitialized 
-### Written by Blueprints
 - BP_GhostManager
+- BP_ScareManager
+- BP_WorldModeSystem
 
 ### Read by Blueprints
-- None detected
+- BP_GhostManager
+- BP_ScareManager
+- BP_WorldModeSystem
 
 ## bIsApplyingLoadedData
 ### Written by Blueprints
@@ -280,13 +277,6 @@
 
 ### Read by Blueprints
 - None detected
-
-## bIsDebug
-### Written by Blueprints
-- None detected
-
-### Read by Blueprints
-- GI_Echoes
 
 ## bIsRestoringFromSave
 ### Written by Blueprints
@@ -308,13 +298,6 @@
 
 ### Read by Blueprints
 - BP_ScareBase
-
-## bIsTransitioning
-### Written by Blueprints
-- GI_Echoes
-
-### Read by Blueprints
-- GI_Echoes
 
 ## bMicReady
 ### Written by Blueprints
@@ -351,7 +334,7 @@
 ### Read by Blueprints
 - BP_SaveManager
 
-## bScareCooldownActive 
+## bScareCooldownActive
 ### Written by Blueprints
 - BP_ScareManager
 
@@ -539,14 +522,12 @@
 - BP_ObjectiveManager
 - BP_PuzzleController
 - BP_ScareManager
-- GI_Echoes
 
 ### Read by Blueprints
 - BP_AudioManager
 - BP_GhostManager
 - BP_PuzzleController
 - BP_ScareManager
-- GI_Echoes
 
 ## CurrentGhostProfile
 ### Written by Blueprints
@@ -554,6 +535,7 @@
 
 ### Read by Blueprints
 - BP_GhostManager
+- BP_ScareManager
 
 ## CurrentGhostState
 ### Written by Blueprints
@@ -583,11 +565,9 @@
 ## CurrentObjectiveId
 ### Written by Blueprints
 - BP_ObjectiveManager
-- GI_Echoes
 
 ### Read by Blueprints
 - BP_ObjectiveManager
-- GI_Echoes
 
 ## CurrentPuzzleData
 ### Written by Blueprints
@@ -606,11 +586,9 @@
 ## CurrentQuestId
 ### Written by Blueprints
 - BP_ObjectiveManager
-- GI_Echoes
 
 ### Read by Blueprints
 - BP_ObjectiveManager
-- GI_Echoes
 
 ## CurrentSaveData
 ### Written by Blueprints
@@ -625,13 +603,6 @@
 
 ### Read by Blueprints
 - BP_SaveManager
-
-## CurrentSaveSlot
-### Written by Blueprints
-- GI_Echoes
-
-### Read by Blueprints
-- None detected
 
 ## CurrentScareActor
 ### Written by Blueprints
@@ -680,13 +651,11 @@
 - BP_AudioManager
 - BP_ScareManager
 - BP_WorldModeSystem
-- GI_Echoes
 
 ### Read by Blueprints
 - BP_AudioManager
 - BP_ScareManager
 - BP_WorldModeSystem
-- GI_Echoes
 
 ## DebugCategorySettingsMap
 ### Written by Blueprints
@@ -701,9 +670,7 @@
 
 ### Read by Blueprints
 - BP_AudioManager
-- BP_GhostManager
 - BP_ScareBase
-- BP_ScareManager
 
 ## DebugEnabled_0
 ### Written by Blueprints
@@ -749,20 +716,6 @@
 - BP_PuzzleController
 
 ## DebugThrottleMap
-### Written by Blueprints
-- None detected
-
-### Read by Blueprints
-- GI_Echoes
-
-## DefaultGhostId
-### Written by Blueprints
-- None detected
-
-### Read by Blueprints
-- BP_GhostManager
-
-## DefaultStartupLevelName
 ### Written by Blueprints
 - None detected
 
@@ -916,23 +869,16 @@
 ### Read by Blueprints
 - BPFL_Level
 
-## GhostIdToLoad
-### Written by Blueprints
-- None detected
-
-### Read by Blueprints
-- BP_GhostManager
-
 ## GhostManagerRef
 ### Written by Blueprints
 - BP_AudioManager
-- BP_GhostManager
 - BP_PuzzleController
 - GI_Echoes
 
 ### Read by Blueprints
 - BP_AudioManager
 - BP_PuzzleController
+- BP_ScareManager
 - GI_Echoes
 
 ## GhostOk
@@ -1088,7 +1034,6 @@
 - GI_Echoes
 
 ### Read by Blueprints
-- BP_GhostManager
 - BP_PuzzleController
 - GI_Echoes
 
@@ -1141,13 +1086,6 @@
 ### Read by Blueprints
 - BP_WorldModeSystem
 
-## Out World Mode
-### Written by Blueprints
-- GI_Echoes
-
-### Read by Blueprints
-- GI_Echoes
-
 ## OwningGhostId
 ### Written by Blueprints
 - BP_ScareBase
@@ -1176,33 +1114,12 @@
 ### Read by Blueprints
 - BP_Portal
 
-## PendingGhostId
-### Written by Blueprints
-- GI_Echoes
-
-### Read by Blueprints
-- GI_Echoes
-
-## PendingLevel
-### Written by Blueprints
-- GI_Echoes
-
-### Read by Blueprints
-- GI_Echoes
-
 ## PendingTransitionData
 ### Written by Blueprints
 - GI_Echoes
 
 ### Read by Blueprints
 - BP_TransitionManager
-
-## PendingWorldMode
-### Written by Blueprints
-- GI_Echoes
-
-### Read by Blueprints
-- None detected
 
 ## PerScareOK
 ### Written by Blueprints
@@ -1255,7 +1172,7 @@
 
 ## PuzzleControllerRef
 ### Written by Blueprints
-- None detected
+- GI_Echoes
 
 ### Read by Blueprints
 - GI_Echoes
@@ -1330,13 +1247,6 @@
 ### Read by Blueprints
 - BP_SaveManager
 
-## SavedLevelRef
-### Written by Blueprints
-- GI_Echoes
-
-### Read by Blueprints
-- GI_Echoes
-
 ## SaveManagerRef
 ### Written by Blueprints
 - BP_GhostManager
@@ -1395,6 +1305,13 @@
 - BP_Scare_Whisper
 - BP_ScareBase
 
+## ScareLoopInterval
+### Written by Blueprints
+- BP_ScareManager
+
+### Read by Blueprints
+- BP_ScareManager
+
 ## ScareLoopTimerHandle
 ### Written by Blueprints
 - BP_ScareManager
@@ -1405,10 +1322,9 @@
 ## ScareManagerRef
 ### Written by Blueprints
 - BP_PuzzleController
-- BP_ScareManager
+- GI_Echoes
 
 ### Read by Blueprints
-- BP_GhostManager
 - BP_PuzzleController
 - GI_Echoes
 
@@ -1596,6 +1512,7 @@
 - GI_Echoes
 
 ### Read by Blueprints
+- BP_ScareManager
 - GI_Echoes
 
 ## WorldOk
