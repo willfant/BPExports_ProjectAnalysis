@@ -16,9 +16,11 @@ flowchart TD
     BP_GhostManager -->|Call| BP_SaveManager
     BP_GhostPlaceholder -->|Call| BFL_Debug
     BP_ObjectiveManager -->|Reference| BP_SaveManager
-    BP_ObjectiveManager -->|Call| GI_Echoes
+    BP_ObjectiveManager -->|Reference| BP_GhostManager
     BP_ObjectiveManager -->|Call| BFL_Debug
     BP_ObjectiveManager -->|Call| BP_SaveManager
+    BP_ObjectiveManager -->|Call| GI_Echoes
+    BP_ObjectiveManager -->|Call| BP_GhostManager
     BP_PuzzleController -->|Reference| BP_GhostManager
     BP_PuzzleController -->|Reference| BP_TransitionManager
     BP_PuzzleController -->|Reference| BP_ObjectiveManager

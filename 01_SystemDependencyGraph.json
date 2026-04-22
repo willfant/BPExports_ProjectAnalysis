@@ -79,10 +79,10 @@
 		},
 		{
 			"name": "BP_ObjectiveManager",
-			"functions": 15,
+			"functions": 17,
 			"variables": 10,
-			"call_edges": 51,
-			"problems": 9
+			"call_edges": 103,
+			"problems": 5
 		},
 		{
 			"name": "BP_Portal",
@@ -584,33 +584,225 @@
 		},
 		{
 			"from": "BP_ObjectiveManager",
-			"to": "GI_Echoes",
-			"type": "Call",
-			"reason": "RegisterObjectiveManager"
+			"to": "BP_GhostManager",
+			"type": "Reference",
+			"reason": "GhostManagerRef"
 		},
 		{
 			"from": "BP_ObjectiveManager",
 			"to": "BFL_Debug",
 			"type": "Call",
-			"reason": "DebugMessage"
+			"reason": "DebugWarning"
 		},
 		{
 			"from": "BP_ObjectiveManager",
-			"to": "BP_SaveManager",
+			"to": "BFL_Debug",
 			"type": "Call",
-			"reason": "SetCurrentQuestId"
+			"reason": "GetSenderName"
 		},
 		{
 			"from": "BP_ObjectiveManager",
-			"to": "BP_SaveManager",
+			"to": "BFL_Debug",
 			"type": "Call",
-			"reason": "SetObjectiveStates"
+			"reason": "DebugCritical"
+		},
+		{
+			"from": "BP_ObjectiveManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_ObjectiveManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugWarning"
+		},
+		{
+			"from": "BP_ObjectiveManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_ObjectiveManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugInfo"
+		},
+		{
+			"from": "BP_ObjectiveManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_ObjectiveManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugWarning"
+		},
+		{
+			"from": "BP_ObjectiveManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_ObjectiveManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugInfo"
+		},
+		{
+			"from": "BP_ObjectiveManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_ObjectiveManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugInfo"
+		},
+		{
+			"from": "BP_ObjectiveManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_ObjectiveManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugWarning"
+		},
+		{
+			"from": "BP_ObjectiveManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_ObjectiveManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugWarning"
+		},
+		{
+			"from": "BP_ObjectiveManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_ObjectiveManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugInfo"
+		},
+		{
+			"from": "BP_ObjectiveManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_ObjectiveManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugInfo"
+		},
+		{
+			"from": "BP_ObjectiveManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_ObjectiveManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugInfo"
+		},
+		{
+			"from": "BP_ObjectiveManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_ObjectiveManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugInfo"
+		},
+		{
+			"from": "BP_ObjectiveManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
 		},
 		{
 			"from": "BP_ObjectiveManager",
 			"to": "BP_SaveManager",
 			"type": "Call",
 			"reason": "RequestAutoSave"
+		},
+		{
+			"from": "BP_ObjectiveManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugInfo"
+		},
+		{
+			"from": "BP_ObjectiveManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_ObjectiveManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugWarning"
+		},
+		{
+			"from": "BP_ObjectiveManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_ObjectiveManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugWarning"
+		},
+		{
+			"from": "BP_ObjectiveManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_ObjectiveManager",
+			"to": "BP_SaveManager",
+			"type": "Call",
+			"reason": "RequestAutoSave"
+		},
+		{
+			"from": "BP_ObjectiveManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugInfo"
+		},
+		{
+			"from": "BP_ObjectiveManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
 		},
 		{
 			"from": "BP_ObjectiveManager",
@@ -629,6 +821,186 @@
 			"to": "BFL_Debug",
 			"type": "Call",
 			"reason": "DebugInfo"
+		},
+		{
+			"from": "BP_ObjectiveManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugWarning"
+		},
+		{
+			"from": "BP_ObjectiveManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_ObjectiveManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugWarning"
+		},
+		{
+			"from": "BP_ObjectiveManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_ObjectiveManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_ObjectiveManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugInfo"
+		},
+		{
+			"from": "BP_ObjectiveManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugInfo"
+		},
+		{
+			"from": "BP_ObjectiveManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_ObjectiveManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugCritical"
+		},
+		{
+			"from": "BP_ObjectiveManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_ObjectiveManager",
+			"to": "GI_Echoes",
+			"type": "Call",
+			"reason": "RegisterObjectiveManager"
+		},
+		{
+			"from": "BP_ObjectiveManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugInfo"
+		},
+		{
+			"from": "BP_ObjectiveManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_ObjectiveManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugWarning"
+		},
+		{
+			"from": "BP_ObjectiveManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_ObjectiveManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugInfo"
+		},
+		{
+			"from": "BP_ObjectiveManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_ObjectiveManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugWarning"
+		},
+		{
+			"from": "BP_ObjectiveManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_ObjectiveManager",
+			"to": "BP_GhostManager",
+			"type": "Call",
+			"reason": "HasActiveGhost"
+		},
+		{
+			"from": "BP_ObjectiveManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugInfo"
+		},
+		{
+			"from": "BP_ObjectiveManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_ObjectiveManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugInfo"
+		},
+		{
+			"from": "BP_ObjectiveManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_ObjectiveManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugWarning"
+		},
+		{
+			"from": "BP_ObjectiveManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_ObjectiveManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugInfo"
+		},
+		{
+			"from": "BP_ObjectiveManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_ObjectiveManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugInfo"
+		},
+		{
+			"from": "BP_ObjectiveManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
 		},
 		{
 			"from": "BP_PuzzleController",

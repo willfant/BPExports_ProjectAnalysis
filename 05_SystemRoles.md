@@ -2,7 +2,7 @@
 
 ## BFL_Debug
 - Role: Shared Service / Hub
-- Incoming dependencies: 247
+- Incoming dependencies: 308
 - Outgoing dependencies: 1
 - External reference dependencies: 0
 - Functions/Graphs: 10
@@ -50,7 +50,7 @@
 
 ## BP_GhostManager
 - Role: General Runtime Blueprint
-- Incoming dependencies: 17
+- Incoming dependencies: 19
 - Outgoing dependencies: 25
 - External reference dependencies: 1
 - Functions/Graphs: 19
@@ -91,10 +91,10 @@
 ## BP_ObjectiveManager
 - Role: General Runtime Blueprint
 - Incoming dependencies: 19
-- Outgoing dependencies: 9
-- External reference dependencies: 1
-- Functions/Graphs: 15
-- Problems: 9
+- Outgoing dependencies: 71
+- External reference dependencies: 2
+- Functions/Graphs: 17
+- Problems: 5
 
 ## BP_Portal
 - Role: General Runtime Blueprint
@@ -114,7 +114,7 @@
 
 ## BP_SaveManager
 - Role: General Runtime Blueprint
-- Incoming dependencies: 32
+- Incoming dependencies: 31
 - Outgoing dependencies: 76
 - External reference dependencies: 2
 - Functions/Graphs: 15

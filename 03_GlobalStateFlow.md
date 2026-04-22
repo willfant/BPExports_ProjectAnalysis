@@ -175,13 +175,6 @@
 ### Read by Blueprints
 - BP_SaveManager
 
-## bEnableObjectiveDebug
-### Written by Blueprints
-- None detected
-
-### Read by Blueprints
-- BP_ObjectiveManager
-
 ## BestPuzzleRowName
 ### Written by Blueprints
 - BP_PuzzleController
@@ -263,11 +256,13 @@
 ### Written by Blueprints
 - BP_AudioManager
 - BP_GhostManager
+- BP_ObjectiveManager
 - BP_ScareManager
 - BP_WorldModeSystem
 
 ### Read by Blueprints
 - BP_GhostManager
+- BP_ObjectiveManager
 - BP_ScareManager
 - BP_WorldModeSystem
 
@@ -526,6 +521,7 @@
 ### Read by Blueprints
 - BP_AudioManager
 - BP_GhostManager
+- BP_ObjectiveManager
 - BP_PuzzleController
 - BP_ScareManager
 
@@ -588,7 +584,7 @@
 - BP_ObjectiveManager
 
 ### Read by Blueprints
-- BP_ObjectiveManager
+- None detected
 
 ## CurrentSaveData
 ### Written by Blueprints
@@ -785,6 +781,13 @@
 ### Read by Blueprints
 - BP_AudioManager
 
+## ExistingObjectiveData
+### Written by Blueprints
+- BP_ObjectiveManager
+
+### Read by Blueprints
+- BP_ObjectiveManager
+
 ## FadeWidgetClass
 ### Written by Blueprints
 - None detected
@@ -872,11 +875,13 @@
 ## GhostManagerRef
 ### Written by Blueprints
 - BP_AudioManager
+- BP_ObjectiveManager
 - BP_PuzzleController
 - GI_Echoes
 
 ### Read by Blueprints
 - BP_AudioManager
+- BP_ObjectiveManager
 - BP_PuzzleController
 - BP_ScareManager
 - GI_Echoes
