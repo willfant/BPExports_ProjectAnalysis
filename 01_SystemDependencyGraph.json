@@ -19,7 +19,7 @@
 			"functions": 26,
 			"variables": 17,
 			"call_edges": 133,
-			"problems": 6
+			"problems": 7
 		},
 		{
 			"name": "BP_DebugManager",
@@ -93,17 +93,17 @@
 		},
 		{
 			"name": "BP_PuzzleController",
-			"functions": 34,
-			"variables": 28,
-			"call_edges": 139,
-			"problems": 20
+			"functions": 35,
+			"variables": 29,
+			"call_edges": 152,
+			"problems": 7
 		},
 		{
 			"name": "BP_SaveManager",
 			"functions": 15,
 			"variables": 19,
 			"call_edges": 161,
-			"problems": 21
+			"problems": 25
 		},
 		{
 			"name": "BP_ScareBase",
@@ -145,7 +145,7 @@
 			"functions": 9,
 			"variables": 7,
 			"call_edges": 25,
-			"problems": 2
+			"problems": 3
 		},
 		{
 			"name": "GI_Echoes",
@@ -1034,15 +1034,99 @@
 		},
 		{
 			"from": "BP_PuzzleController",
-			"to": "BP_WorldModeSystem",
+			"to": "BFL_Debug",
 			"type": "Call",
-			"reason": "GetWorldMode"
+			"reason": "DebugInfo"
 		},
 		{
 			"from": "BP_PuzzleController",
-			"to": "BP_ObjectiveManager",
+			"to": "BFL_Debug",
 			"type": "Call",
-			"reason": "CompleteObjective"
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_PuzzleController",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugWarning"
+		},
+		{
+			"from": "BP_PuzzleController",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_PuzzleController",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugCritical"
+		},
+		{
+			"from": "BP_PuzzleController",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_PuzzleController",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugInfo"
+		},
+		{
+			"from": "BP_PuzzleController",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_PuzzleController",
+			"to": "BP_ScareManager",
+			"type": "Call",
+			"reason": "ExecuteScareById"
+		},
+		{
+			"from": "BP_PuzzleController",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugWarning"
+		},
+		{
+			"from": "BP_PuzzleController",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_PuzzleController",
+			"to": "BP_ScareManager",
+			"type": "Call",
+			"reason": "ExecuteScareById"
+		},
+		{
+			"from": "BP_PuzzleController",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugWarning"
+		},
+		{
+			"from": "BP_PuzzleController",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_PuzzleController",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugInfo"
+		},
+		{
+			"from": "BP_PuzzleController",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
 		},
 		{
 			"from": "BP_PuzzleController",
@@ -1054,175 +1138,25 @@
 			"from": "BP_PuzzleController",
 			"to": "BFL_Debug",
 			"type": "Call",
-			"reason": "DebugMessage"
+			"reason": "DebugWarning"
 		},
 		{
 			"from": "BP_PuzzleController",
-			"to": "BP_GhostManager",
+			"to": "BFL_Debug",
 			"type": "Call",
-			"reason": "GetCurrentGhostId"
+			"reason": "GetSenderName"
 		},
 		{
 			"from": "BP_PuzzleController",
-			"to": "BP_SaveManager",
+			"to": "BFL_Debug",
 			"type": "Call",
-			"reason": "MarkPuzzleCompleted"
+			"reason": "DebugInfo"
 		},
 		{
 			"from": "BP_PuzzleController",
-			"to": "BP_ScareManager",
+			"to": "BFL_Debug",
 			"type": "Call",
-			"reason": "ExecuteScareById"
-		},
-		{
-			"from": "BP_PuzzleController",
-			"to": "BP_ScareManager",
-			"type": "Call",
-			"reason": "ExecuteScareById"
-		},
-		{
-			"from": "BP_PuzzleController",
-			"to": "BP_SaveManager",
-			"type": "Call",
-			"reason": "SetCurrentPuzzleId"
-		},
-		{
-			"from": "BP_PuzzleController",
-			"to": "BP_SaveManager",
-			"type": "Call",
-			"reason": "SetCurrentPuzzleStepIndex"
-		},
-		{
-			"from": "BP_PuzzleController",
-			"to": "BP_ObjectiveManager",
-			"type": "Call",
-			"reason": "CompleteObjective"
-		},
-		{
-			"from": "BP_PuzzleController",
-			"to": "BP_ObjectiveManager",
-			"type": "Call",
-			"reason": "StartObjective"
-		},
-		{
-			"from": "BP_PuzzleController",
-			"to": "BP_GhostManager",
-			"type": "Call",
-			"reason": "SetGhostState"
-		},
-		{
-			"from": "BP_PuzzleController",
-			"to": "BP_SaveManager",
-			"type": "Call",
-			"reason": "MarkPuzzleCompleted"
-		},
-		{
-			"from": "BP_PuzzleController",
-			"to": "BP_SaveManager",
-			"type": "Call",
-			"reason": "SetCurrentPuzzleId"
-		},
-		{
-			"from": "BP_PuzzleController",
-			"to": "BP_SaveManager",
-			"type": "Call",
-			"reason": "SetCurrentPuzzleStepIndex"
-		},
-		{
-			"from": "BP_PuzzleController",
-			"to": "BP_ObjectiveManager",
-			"type": "Call",
-			"reason": "CompleteObjective"
-		},
-		{
-			"from": "BP_PuzzleController",
-			"to": "BP_ObjectiveManager",
-			"type": "Call",
-			"reason": "StartObjective"
-		},
-		{
-			"from": "BP_PuzzleController",
-			"to": "BP_GhostManager",
-			"type": "Call",
-			"reason": "SetGhostState"
-		},
-		{
-			"from": "BP_PuzzleController",
-			"to": "BP_ObjectiveManager",
-			"type": "Call",
-			"reason": "CompleteObjective"
-		},
-		{
-			"from": "BP_PuzzleController",
-			"to": "BP_ObjectiveManager",
-			"type": "Call",
-			"reason": "StartObjective"
-		},
-		{
-			"from": "BP_PuzzleController",
-			"to": "BP_GhostManager",
-			"type": "Call",
-			"reason": "SetGhostState"
-		},
-		{
-			"from": "BP_PuzzleController",
-			"to": "BP_ObjectiveManager",
-			"type": "Call",
-			"reason": "CompleteObjective"
-		},
-		{
-			"from": "BP_PuzzleController",
-			"to": "BP_ObjectiveManager",
-			"type": "Call",
-			"reason": "StartObjective"
-		},
-		{
-			"from": "BP_PuzzleController",
-			"to": "BP_GhostManager",
-			"type": "Call",
-			"reason": "SetGhostState"
-		},
-		{
-			"from": "BP_PuzzleController",
-			"to": "BP_TransitionManager",
-			"type": "Call",
-			"reason": "StartMemoryTransition"
-		},
-		{
-			"from": "BP_PuzzleController",
-			"to": "BP_GhostManager",
-			"type": "Call",
-			"reason": "GetCurrentGhostProfile"
-		},
-		{
-			"from": "BP_PuzzleController",
-			"to": "BP_ObjectiveManager",
-			"type": "Call",
-			"reason": "CompleteObjective"
-		},
-		{
-			"from": "BP_PuzzleController",
-			"to": "BP_ObjectiveManager",
-			"type": "Call",
-			"reason": "StartObjective"
-		},
-		{
-			"from": "BP_PuzzleController",
-			"to": "BP_WorldModeSystem",
-			"type": "Call",
-			"reason": "SetWorldMode"
-		},
-		{
-			"from": "BP_PuzzleController",
-			"to": "BP_ObjectiveManager",
-			"type": "Call",
-			"reason": "CompleteObjective"
-		},
-		{
-			"from": "BP_PuzzleController",
-			"to": "BP_TransitionManager",
-			"type": "Call",
-			"reason": "TravelToLevelName"
+			"reason": "GetSenderName"
 		},
 		{
 			"from": "BP_PuzzleController",
@@ -1250,21 +1184,345 @@
 		},
 		{
 			"from": "BP_PuzzleController",
-			"to": "BP_SaveManager",
+			"to": "BFL_Debug",
 			"type": "Call",
-			"reason": "SetCurrentPuzzleId"
+			"reason": "DebugWarning"
+		},
+		{
+			"from": "BP_PuzzleController",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_PuzzleController",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugCritical"
+		},
+		{
+			"from": "BP_PuzzleController",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_PuzzleController",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugWarning"
+		},
+		{
+			"from": "BP_PuzzleController",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_PuzzleController",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugInfo"
+		},
+		{
+			"from": "BP_PuzzleController",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_PuzzleController",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_PuzzleController",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugCritical"
+		},
+		{
+			"from": "BP_PuzzleController",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugWarning"
+		},
+		{
+			"from": "BP_PuzzleController",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_PuzzleController",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugInfo"
+		},
+		{
+			"from": "BP_PuzzleController",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
 		},
 		{
 			"from": "BP_PuzzleController",
 			"to": "BP_SaveManager",
 			"type": "Call",
-			"reason": "SetCurrentPuzzleStepIndex"
+			"reason": "RequestAutoSave"
+		},
+		{
+			"from": "BP_PuzzleController",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugInfo"
+		},
+		{
+			"from": "BP_PuzzleController",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_PuzzleController",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugWarning"
+		},
+		{
+			"from": "BP_PuzzleController",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_PuzzleController",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugWarning"
+		},
+		{
+			"from": "BP_PuzzleController",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_PuzzleController",
+			"to": "BP_SaveManager",
+			"type": "Call",
+			"reason": "RequestAutoSave"
+		},
+		{
+			"from": "BP_PuzzleController",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugInfo"
+		},
+		{
+			"from": "BP_PuzzleController",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
 		},
 		{
 			"from": "BP_PuzzleController",
 			"to": "BP_WorldModeSystem",
 			"type": "Call",
 			"reason": "GetWorldMode"
+		},
+		{
+			"from": "BP_PuzzleController",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugInfo"
+		},
+		{
+			"from": "BP_PuzzleController",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_PuzzleController",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugInfo"
+		},
+		{
+			"from": "BP_PuzzleController",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_PuzzleController",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugInfo"
+		},
+		{
+			"from": "BP_PuzzleController",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_PuzzleController",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugInfo"
+		},
+		{
+			"from": "BP_PuzzleController",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_PuzzleController",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugInfo"
+		},
+		{
+			"from": "BP_PuzzleController",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_PuzzleController",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugWarning"
+		},
+		{
+			"from": "BP_PuzzleController",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_PuzzleController",
+			"to": "BP_GhostManager",
+			"type": "Call",
+			"reason": "HasActiveGhost"
+		},
+		{
+			"from": "BP_PuzzleController",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_PuzzleController",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugInfo"
+		},
+		{
+			"from": "BP_PuzzleController",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugWarning"
+		},
+		{
+			"from": "BP_PuzzleController",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_PuzzleController",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_PuzzleController",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugInfo"
+		},
+		{
+			"from": "BP_PuzzleController",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_PuzzleController",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugInfo"
+		},
+		{
+			"from": "BP_PuzzleController",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugWarning"
+		},
+		{
+			"from": "BP_PuzzleController",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_PuzzleController",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugInfo"
+		},
+		{
+			"from": "BP_PuzzleController",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_PuzzleController",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugInfo"
+		},
+		{
+			"from": "BP_PuzzleController",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_PuzzleController",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugCritical"
+		},
+		{
+			"from": "BP_PuzzleController",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_PuzzleController",
+			"to": "GI_Echoes",
+			"type": "Call",
+			"reason": "RegisterPuzzleController"
+		},
+		{
+			"from": "BP_PuzzleController",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugInfo"
+		},
+		{
+			"from": "BP_PuzzleController",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
 		},
 		{
 			"from": "BP_SaveManager",

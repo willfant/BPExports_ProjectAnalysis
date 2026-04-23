@@ -26,13 +26,13 @@ flowchart TD
     BP_PuzzleController -->|Reference| BP_ObjectiveManager
     BP_PuzzleController -->|Reference| BP_ScareManager
     BP_PuzzleController -->|Reference| BP_SaveManager
-    BP_PuzzleController -->|Call| BP_WorldModeSystem
-    BP_PuzzleController -->|Call| BP_ObjectiveManager
     BP_PuzzleController -->|Call| BFL_Debug
-    BP_PuzzleController -->|Call| BP_GhostManager
-    BP_PuzzleController -->|Call| BP_SaveManager
     BP_PuzzleController -->|Call| BP_ScareManager
-    BP_PuzzleController -->|Call| BP_TransitionManager
+    BP_PuzzleController -->|Call| BP_ObjectiveManager
+    BP_PuzzleController -->|Call| BP_SaveManager
+    BP_PuzzleController -->|Call| BP_WorldModeSystem
+    BP_PuzzleController -->|Call| BP_GhostManager
+    BP_PuzzleController -->|Call| GI_Echoes
     BP_SaveManager -->|Reference| BP_GhostManager
     BP_SaveManager -->|Reference| BP_WorldModeSystem
     BP_SaveManager -->|Call| GI_Echoes

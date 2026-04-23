@@ -2,7 +2,7 @@
 
 ## BFL_Debug
 - Role: Shared Service / Hub
-- Incoming dependencies: 308
+- Incoming dependencies: 377
 - Outgoing dependencies: 1
 - External reference dependencies: 0
 - Functions/Graphs: 10
@@ -22,7 +22,7 @@
 - Outgoing dependencies: 41
 - External reference dependencies: 2
 - Functions/Graphs: 26
-- Problems: 6
+- Problems: 7
 
 ## BP_DebugManager
 - Role: General Runtime Blueprint
@@ -50,7 +50,7 @@
 
 ## BP_GhostManager
 - Role: General Runtime Blueprint
-- Incoming dependencies: 19
+- Incoming dependencies: 14
 - Outgoing dependencies: 25
 - External reference dependencies: 1
 - Functions/Graphs: 19
@@ -90,7 +90,7 @@
 
 ## BP_ObjectiveManager
 - Role: General Runtime Blueprint
-- Incoming dependencies: 19
+- Incoming dependencies: 7
 - Outgoing dependencies: 71
 - External reference dependencies: 2
 - Functions/Graphs: 17
@@ -107,18 +107,18 @@
 ## BP_PuzzleController
 - Role: System Orchestrator
 - Incoming dependencies: 5
-- Outgoing dependencies: 44
+- Outgoing dependencies: 87
 - External reference dependencies: 5
-- Functions/Graphs: 34
-- Problems: 20
+- Functions/Graphs: 35
+- Problems: 7
 
 ## BP_SaveManager
 - Role: General Runtime Blueprint
-- Incoming dependencies: 31
+- Incoming dependencies: 25
 - Outgoing dependencies: 76
 - External reference dependencies: 2
 - Functions/Graphs: 15
-- Problems: 21
+- Problems: 25
 
 ## BP_ScareBase
 - Role: General Runtime Blueprint
@@ -154,7 +154,7 @@
 
 ## BP_TransitionManager
 - Role: General Runtime Blueprint
-- Incoming dependencies: 5
+- Incoming dependencies: 3
 - Outgoing dependencies: 31
 - External reference dependencies: 0
 - Functions/Graphs: 12
@@ -162,15 +162,15 @@
 
 ## BP_WorldModeSystem
 - Role: General Runtime Blueprint
-- Incoming dependencies: 13
+- Incoming dependencies: 11
 - Outgoing dependencies: 9
 - External reference dependencies: 1
 - Functions/Graphs: 9
-- Problems: 2
+- Problems: 3
 
 ## GI_Echoes
 - Role: System Orchestrator
-- Incoming dependencies: 18
+- Incoming dependencies: 19
 - Outgoing dependencies: 20
 - External reference dependencies: 8
 - Functions/Graphs: 46

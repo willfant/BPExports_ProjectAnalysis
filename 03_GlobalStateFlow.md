@@ -84,6 +84,13 @@
 ### Read by Blueprints
 - BP_SaveManager
 
+## bAutoStartFirstPuzzleForCurrentGhost
+### Written by Blueprints
+- None detected
+
+### Read by Blueprints
+- BP_PuzzleController
+
 ## bBooted
 ### Written by Blueprints
 - GI_Echoes
@@ -118,13 +125,6 @@
 
 ### Read by Blueprints
 - BP_WorldModeSystem
-
-## bDebugPuzzle
-### Written by Blueprints
-- None detected
-
-### Read by Blueprints
-- BP_PuzzleController
 
 ## bDebugSystemEnabled
 ### Written by Blueprints
@@ -257,12 +257,14 @@
 - BP_AudioManager
 - BP_GhostManager
 - BP_ObjectiveManager
+- BP_PuzzleController
 - BP_ScareManager
 - BP_WorldModeSystem
 
 ### Read by Blueprints
 - BP_GhostManager
 - BP_ObjectiveManager
+- BP_PuzzleController
 - BP_ScareManager
 - BP_WorldModeSystem
 
@@ -314,6 +316,13 @@
 
 ### Read by Blueprints
 - BP_ObjectiveManager
+
+## bPuzzleRestoredFromSave
+### Written by Blueprints
+- BP_PuzzleController
+
+### Read by Blueprints
+- BP_PuzzleController
 
 ## bRandomizeSide
 ### Written by Blueprints
@@ -413,6 +422,7 @@
 
 ## CachedWorldModeSystem
 ### Written by Blueprints
+- BP_PuzzleController
 - BP_TransitionManager
 
 ### Read by Blueprints
@@ -704,26 +714,12 @@
 ### Read by Blueprints
 - GI_Echoes
 
-## DebugSenderName
-### Written by Blueprints
-- None detected
-
-### Read by Blueprints
-- BP_PuzzleController
-
 ## DebugThrottleMap
 ### Written by Blueprints
 - None detected
 
 ### Read by Blueprints
 - GI_Echoes
-
-## DEPRECATED__CompletedPuzzleIds
-### Written by Blueprints
-- None detected
-
-### Read by Blueprints
-- BP_PuzzleController
 
 ## DistOk
 ### Written by Blueprints
@@ -864,6 +860,13 @@
 
 ### Read by Blueprints
 - None detected
+
+## FromRestoreL
+### Written by Blueprints
+- BP_PuzzleController
+
+### Read by Blueprints
+- BP_PuzzleController
 
 ## Get
 ### Written by Blueprints
@@ -1182,6 +1185,20 @@
 ### Read by Blueprints
 - GI_Echoes
 
+## PuzzleDataL
+### Written by Blueprints
+- BP_PuzzleController
+
+### Read by Blueprints
+- BP_PuzzleController
+
+## PuzzleRowNameL
+### Written by Blueprints
+- BP_PuzzleController
+
+### Read by Blueprints
+- BP_PuzzleController
+
 ## RandomPick
 ### Written by Blueprints
 - None detected
@@ -1375,6 +1392,13 @@
 ### Read by Blueprints
 - GI_Echoes
 
+## StartedOkL
+### Written by Blueprints
+- BP_PuzzleController
+
+### Read by Blueprints
+- BP_PuzzleController
+
 ## StartedPuzzleIds
 ### Written by Blueprints
 - BP_PuzzleController
@@ -1382,7 +1406,21 @@
 ### Read by Blueprints
 - BP_PuzzleController
 
+## StartingStepIndexL
+### Written by Blueprints
+- BP_PuzzleController
+
+### Read by Blueprints
+- BP_PuzzleController
+
 ## Step Id
+### Written by Blueprints
+- BP_PuzzleController
+
+### Read by Blueprints
+- BP_PuzzleController
+
+## StepCountL
 ### Written by Blueprints
 - BP_PuzzleController
 
@@ -1454,13 +1492,6 @@
 ### Read by Blueprints
 - BP_DebugManager
 
-## VoiceListenerRef
-### Written by Blueprints
-- BP_PuzzleController
-
-### Read by Blueprints
-- BP_PuzzleController
-
 ## VolumeMultiplier
 ### Written by Blueprints
 - BP_AudioManager
@@ -1517,6 +1548,7 @@
 - GI_Echoes
 
 ### Read by Blueprints
+- BP_PuzzleController
 - BP_ScareManager
 - GI_Echoes
 
