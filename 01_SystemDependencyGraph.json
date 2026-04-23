@@ -8,6 +8,13 @@
 			"problems": 0
 		},
 		{
+			"name": "BML_DebugAuto_Actor",
+			"functions": 3,
+			"variables": 0,
+			"call_edges": 6,
+			"problems": 0
+		},
+		{
 			"name": "BPFL_Level",
 			"functions": 15,
 			"variables": 0,
@@ -16,9 +23,9 @@
 		},
 		{
 			"name": "BP_AudioManager",
-			"functions": 26,
+			"functions": 31,
 			"variables": 17,
-			"call_edges": 133,
+			"call_edges": 147,
 			"problems": 7
 		},
 		{
@@ -163,6 +170,24 @@
 			"reason": "SubmitDebugMessage"
 		},
 		{
+			"from": "BML_DebugAuto_Actor",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugInfo"
+		},
+		{
+			"from": "BML_DebugAuto_Actor",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugWarning"
+		},
+		{
+			"from": "BML_DebugAuto_Actor",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugCritical"
+		},
+		{
 			"from": "BP_AudioManager",
 			"to": "BP_WorldModeSystem",
 			"type": "Reference",
@@ -194,9 +219,183 @@
 		},
 		{
 			"from": "BP_AudioManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugInfo"
+		},
+		{
+			"from": "BP_AudioManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_AudioManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugCritical"
+		},
+		{
+			"from": "BP_AudioManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_AudioManager",
 			"to": "GI_Echoes",
 			"type": "Call",
-			"reason": "GetCurrentWorldMode"
+			"reason": "RegisterAudioManager"
+		},
+		{
+			"from": "BP_AudioManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugInfo"
+		},
+		{
+			"from": "BP_AudioManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_AudioManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugMessage"
+		},
+		{
+			"from": "BP_AudioManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugWarning"
+		},
+		{
+			"from": "BP_AudioManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_AudioManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_AudioManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugCritical"
+		},
+		{
+			"from": "BP_AudioManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugWarning"
+		},
+		{
+			"from": "BP_AudioManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_AudioManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugInfo"
+		},
+		{
+			"from": "BP_AudioManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_AudioManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugWarning"
+		},
+		{
+			"from": "BP_AudioManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_AudioManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugInfo"
+		},
+		{
+			"from": "BP_AudioManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_AudioManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugWarning"
+		},
+		{
+			"from": "BP_AudioManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_AudioManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugInfo"
+		},
+		{
+			"from": "BP_AudioManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_AudioManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugWarning"
+		},
+		{
+			"from": "BP_AudioManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_AudioManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugInfo"
+		},
+		{
+			"from": "BP_AudioManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_AudioManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugInfo"
+		},
+		{
+			"from": "BP_AudioManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
 		},
 		{
 			"from": "BP_AudioManager",
@@ -256,157 +455,43 @@
 			"from": "BP_AudioManager",
 			"to": "BFL_Debug",
 			"type": "Call",
-			"reason": "DebugMessage"
+			"reason": "DebugWarning"
+		},
+		{
+			"from": "BP_AudioManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
 		},
 		{
 			"from": "BP_AudioManager",
 			"to": "BP_GhostManager",
 			"type": "Call",
-			"reason": "GetCurrentGhostId"
+			"reason": "HasActiveGhost"
 		},
 		{
 			"from": "BP_AudioManager",
 			"to": "BFL_Debug",
 			"type": "Call",
-			"reason": "DebugMessage"
+			"reason": "DebugWarning"
 		},
 		{
 			"from": "BP_AudioManager",
 			"to": "BFL_Debug",
 			"type": "Call",
-			"reason": "DebugMessage"
+			"reason": "GetSenderName"
 		},
 		{
 			"from": "BP_AudioManager",
 			"to": "BFL_Debug",
 			"type": "Call",
-			"reason": "DebugMessage"
+			"reason": "DebugInfo"
 		},
 		{
 			"from": "BP_AudioManager",
 			"to": "BFL_Debug",
 			"type": "Call",
-			"reason": "DebugMessage"
-		},
-		{
-			"from": "BP_AudioManager",
-			"to": "BFL_Debug",
-			"type": "Call",
-			"reason": "DebugMessage"
-		},
-		{
-			"from": "BP_AudioManager",
-			"to": "BFL_Debug",
-			"type": "Call",
-			"reason": "DebugMessage"
-		},
-		{
-			"from": "BP_AudioManager",
-			"to": "BFL_Debug",
-			"type": "Call",
-			"reason": "DebugMessage"
-		},
-		{
-			"from": "BP_AudioManager",
-			"to": "BFL_Debug",
-			"type": "Call",
-			"reason": "DebugMessage"
-		},
-		{
-			"from": "BP_AudioManager",
-			"to": "BFL_Debug",
-			"type": "Call",
-			"reason": "DebugMessage"
-		},
-		{
-			"from": "BP_AudioManager",
-			"to": "BFL_Debug",
-			"type": "Call",
-			"reason": "DebugMessage"
-		},
-		{
-			"from": "BP_AudioManager",
-			"to": "BFL_Debug",
-			"type": "Call",
-			"reason": "DebugMessage"
-		},
-		{
-			"from": "BP_AudioManager",
-			"to": "BFL_Debug",
-			"type": "Call",
-			"reason": "DebugMessage"
-		},
-		{
-			"from": "BP_AudioManager",
-			"to": "BFL_Debug",
-			"type": "Call",
-			"reason": "DebugMessage"
-		},
-		{
-			"from": "BP_AudioManager",
-			"to": "BFL_Debug",
-			"type": "Call",
-			"reason": "DebugMessage"
-		},
-		{
-			"from": "BP_AudioManager",
-			"to": "BFL_Debug",
-			"type": "Call",
-			"reason": "DebugMessage"
-		},
-		{
-			"from": "BP_AudioManager",
-			"to": "BFL_Debug",
-			"type": "Call",
-			"reason": "DebugMessage"
-		},
-		{
-			"from": "BP_AudioManager",
-			"to": "BFL_Debug",
-			"type": "Call",
-			"reason": "DebugMessage"
-		},
-		{
-			"from": "BP_AudioManager",
-			"to": "BFL_Debug",
-			"type": "Call",
-			"reason": "DebugMessage"
-		},
-		{
-			"from": "BP_AudioManager",
-			"to": "BFL_Debug",
-			"type": "Call",
-			"reason": "DebugMessage"
-		},
-		{
-			"from": "BP_AudioManager",
-			"to": "BFL_Debug",
-			"type": "Call",
-			"reason": "DebugMessage"
-		},
-		{
-			"from": "BP_AudioManager",
-			"to": "BFL_Debug",
-			"type": "Call",
-			"reason": "DebugMessage"
-		},
-		{
-			"from": "BP_AudioManager",
-			"to": "BFL_Debug",
-			"type": "Call",
-			"reason": "DebugMessage"
-		},
-		{
-			"from": "BP_AudioManager",
-			"to": "BFL_Debug",
-			"type": "Call",
-			"reason": "DebugMessage"
-		},
-		{
-			"from": "BP_AudioManager",
-			"to": "BFL_Debug",
-			"type": "Call",
-			"reason": "DebugMessage"
+			"reason": "GetSenderName"
 		},
 		{
 			"from": "BP_DebugManager",

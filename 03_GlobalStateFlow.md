@@ -35,6 +35,13 @@
 ### Read by Blueprints
 - BP_ScareManager
 
+## AudioCueL
+### Written by Blueprints
+- BP_AudioManager
+
+### Read by Blueprints
+- BP_AudioManager
+
 ## AudioManagerRef
 ### Written by Blueprints
 - GI_Echoes
@@ -262,6 +269,7 @@
 - BP_WorldModeSystem
 
 ### Read by Blueprints
+- BP_AudioManager
 - BP_GhostManager
 - BP_ObjectiveManager
 - BP_PuzzleController
@@ -490,7 +498,7 @@
 - BP_AudioManager
 
 ### Read by Blueprints
-- BP_AudioManager
+- None detected
 
 ## CurrentAudioStateId
 ### Written by Blueprints
@@ -566,7 +574,7 @@
 - BP_AudioManager
 
 ### Read by Blueprints
-- BP_AudioManager
+- None detected
 
 ## CurrentObjectiveId
 ### Written by Blueprints
@@ -966,6 +974,13 @@
 ### Read by Blueprints
 - BP_ObjectiveManager
 
+## LocationL
+### Written by Blueprints
+- BP_AudioManager
+
+### Read by Blueprints
+- BP_AudioManager
+
 ## LocOutMessage
 ### Written by Blueprints
 - GI_Echoes
@@ -979,6 +994,13 @@
 
 ### Read by Blueprints
 - None detected
+
+## LoopIDL
+### Written by Blueprints
+- BP_AudioManager
+
+### Read by Blueprints
+- BP_AudioManager
 
 ## MainFeedWidget
 ### Written by Blueprints
@@ -1219,6 +1241,13 @@
 
 ### Read by Blueprints
 - BP_Portal
+
+## ReplaceIfExistsL
+### Written by Blueprints
+- BP_AudioManager
+
+### Read by Blueprints
+- BP_AudioManager
 
 ## ResolvedSettings
 ### Written by Blueprints
@@ -1492,13 +1521,6 @@
 ### Read by Blueprints
 - BP_DebugManager
 
-## VolumeMultiplier
-### Written by Blueprints
-- BP_AudioManager
-
-### Read by Blueprints
-- None detected
-
 ## WallAnchors
 ### Written by Blueprints
 - None detected
@@ -1548,6 +1570,7 @@
 - GI_Echoes
 
 ### Read by Blueprints
+- BP_AudioManager
 - BP_PuzzleController
 - BP_ScareManager
 - GI_Echoes

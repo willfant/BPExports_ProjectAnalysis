@@ -2,6 +2,7 @@
 
 ## Exported Blueprints
 - BFL_Debug
+- BML_DebugAuto_Actor
 - BPFL_Level
 - BP_AudioManager
 - BP_DebugManager
@@ -25,8 +26,8 @@
 - GI_Echoes
 
 ## Metrics
-- Blueprint count: 22
-- Cross-blueprint edges: 471
+- Blueprint count: 23
+- Cross-blueprint edges: 484
 
 ## What this analysis does
 - Detects likely dependencies between exported Blueprints.

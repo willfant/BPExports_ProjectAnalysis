@@ -2,10 +2,18 @@
 
 ## BFL_Debug
 - Role: Shared Service / Hub
-- Incoming dependencies: 377
+- Incoming dependencies: 390
 - Outgoing dependencies: 1
 - External reference dependencies: 0
 - Functions/Graphs: 10
+- Problems: 0
+
+## BML_DebugAuto_Actor
+- Role: General Runtime Blueprint
+- Incoming dependencies: 0
+- Outgoing dependencies: 3
+- External reference dependencies: 0
+- Functions/Graphs: 3
 - Problems: 0
 
 ## BPFL_Level
@@ -19,9 +27,9 @@
 ## BP_AudioManager
 - Role: General Runtime Blueprint
 - Incoming dependencies: 2
-- Outgoing dependencies: 41
+- Outgoing dependencies: 51
 - External reference dependencies: 2
-- Functions/Graphs: 26
+- Functions/Graphs: 31
 - Problems: 7
 
 ## BP_DebugManager

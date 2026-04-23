@@ -3,6 +3,7 @@
 ```mermaid
 flowchart TD
     BFL_Debug -->|Call| GI_Echoes
+    BML_DebugAuto_Actor -->|Call| BFL_Debug
     BP_AudioManager -->|Reference| BP_WorldModeSystem
     BP_AudioManager -->|Reference| BP_GhostManager
     BP_AudioManager -->|Call| BFL_Debug
