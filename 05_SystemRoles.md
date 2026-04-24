@@ -2,7 +2,7 @@
 
 ## BFL_Debug
 - Role: Shared Service / Hub
-- Incoming dependencies: 390
+- Incoming dependencies: 367
 - Outgoing dependencies: 1
 - External reference dependencies: 0
 - Functions/Graphs: 10
@@ -122,7 +122,7 @@
 
 ## BP_SaveManager
 - Role: General Runtime Blueprint
-- Incoming dependencies: 25
+- Incoming dependencies: 17
 - Outgoing dependencies: 76
 - External reference dependencies: 2
 - Functions/Graphs: 15
@@ -163,22 +163,22 @@
 ## BP_TransitionManager
 - Role: General Runtime Blueprint
 - Incoming dependencies: 3
-- Outgoing dependencies: 31
+- Outgoing dependencies: 8
 - External reference dependencies: 0
 - Functions/Graphs: 12
-- Problems: 9
+- Problems: 0
 
 ## BP_WorldModeSystem
 - Role: General Runtime Blueprint
 - Incoming dependencies: 11
-- Outgoing dependencies: 9
+- Outgoing dependencies: 4
 - External reference dependencies: 1
 - Functions/Graphs: 9
-- Problems: 3
+- Problems: 0
 
 ## GI_Echoes
 - Role: System Orchestrator
-- Incoming dependencies: 19
+- Incoming dependencies: 22
 - Outgoing dependencies: 20
 - External reference dependencies: 8
 - Functions/Graphs: 46

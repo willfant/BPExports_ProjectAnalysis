@@ -144,15 +144,15 @@
 			"name": "BP_TransitionManager",
 			"functions": 12,
 			"variables": 12,
-			"call_edges": 67,
-			"problems": 9
+			"call_edges": 48,
+			"problems": 0
 		},
 		{
 			"name": "BP_WorldModeSystem",
 			"functions": 9,
 			"variables": 7,
-			"call_edges": 25,
-			"problems": 3
+			"call_edges": 14,
+			"problems": 0
 		},
 		{
 			"name": "GI_Echoes",
@@ -2709,57 +2709,9 @@
 		},
 		{
 			"from": "BP_TransitionManager",
-			"to": "BFL_Debug",
+			"to": "GI_Echoes",
 			"type": "Call",
-			"reason": "DebugMessage"
-		},
-		{
-			"from": "BP_TransitionManager",
-			"to": "BFL_Debug",
-			"type": "Call",
-			"reason": "DebugMessage"
-		},
-		{
-			"from": "BP_TransitionManager",
-			"to": "BFL_Debug",
-			"type": "Call",
-			"reason": "DebugMessage"
-		},
-		{
-			"from": "BP_TransitionManager",
-			"to": "BFL_Debug",
-			"type": "Call",
-			"reason": "DebugMessage"
-		},
-		{
-			"from": "BP_TransitionManager",
-			"to": "BFL_Debug",
-			"type": "Call",
-			"reason": "DebugMessage"
-		},
-		{
-			"from": "BP_TransitionManager",
-			"to": "BFL_Debug",
-			"type": "Call",
-			"reason": "DebugMessage"
-		},
-		{
-			"from": "BP_TransitionManager",
-			"to": "BFL_Debug",
-			"type": "Call",
-			"reason": "DebugMessage"
-		},
-		{
-			"from": "BP_TransitionManager",
-			"to": "BFL_Debug",
-			"type": "Call",
-			"reason": "DebugMessage"
-		},
-		{
-			"from": "BP_TransitionManager",
-			"to": "BFL_Debug",
-			"type": "Call",
-			"reason": "DebugMessage"
+			"reason": "RegisterTransitionManager"
 		},
 		{
 			"from": "BP_TransitionManager",
@@ -2769,87 +2721,15 @@
 		},
 		{
 			"from": "BP_TransitionManager",
-			"to": "BFL_Debug",
-			"type": "Call",
-			"reason": "DebugMessage"
-		},
-		{
-			"from": "BP_TransitionManager",
-			"to": "BFL_Debug",
-			"type": "Call",
-			"reason": "DebugMessage"
-		},
-		{
-			"from": "BP_TransitionManager",
-			"to": "BFL_Debug",
-			"type": "Call",
-			"reason": "DebugMessage"
-		},
-		{
-			"from": "BP_TransitionManager",
 			"to": "BP_WorldModeSystem",
 			"type": "Call",
 			"reason": "SetWorldMode"
 		},
 		{
 			"from": "BP_TransitionManager",
-			"to": "BP_SaveManager",
-			"type": "Call",
-			"reason": "SetCurrentWorldMode"
-		},
-		{
-			"from": "BP_TransitionManager",
-			"to": "BFL_Debug",
-			"type": "Call",
-			"reason": "DebugMessage"
-		},
-		{
-			"from": "BP_TransitionManager",
-			"to": "BFL_Debug",
-			"type": "Call",
-			"reason": "DebugMessage"
-		},
-		{
-			"from": "BP_TransitionManager",
-			"to": "BFL_Debug",
-			"type": "Call",
-			"reason": "DebugMessage"
-		},
-		{
-			"from": "BP_TransitionManager",
-			"to": "BFL_Debug",
-			"type": "Call",
-			"reason": "DebugMessage"
-		},
-		{
-			"from": "BP_TransitionManager",
-			"to": "BFL_Debug",
-			"type": "Call",
-			"reason": "DebugMessage"
-		},
-		{
-			"from": "BP_TransitionManager",
 			"to": "GI_Echoes",
 			"type": "Call",
 			"reason": "ClearStartupPendingTransition"
-		},
-		{
-			"from": "BP_TransitionManager",
-			"to": "BP_SaveManager",
-			"type": "Call",
-			"reason": "SetCurrentWorldMode"
-		},
-		{
-			"from": "BP_TransitionManager",
-			"to": "BP_SaveManager",
-			"type": "Call",
-			"reason": "SetCurrentLevelName"
-		},
-		{
-			"from": "BP_TransitionManager",
-			"to": "BP_SaveManager",
-			"type": "Call",
-			"reason": "SetCurrentLevel"
 		},
 		{
 			"from": "BP_TransitionManager",
@@ -2862,24 +2742,6 @@
 			"to": "BP_SaveManager",
 			"type": "Call",
 			"reason": "WriteSaveToDisk"
-		},
-		{
-			"from": "BP_TransitionManager",
-			"to": "BP_SaveManager",
-			"type": "Call",
-			"reason": "SetCurrentWorldMode"
-		},
-		{
-			"from": "BP_TransitionManager",
-			"to": "BP_SaveManager",
-			"type": "Call",
-			"reason": "SetCurrentLevelName"
-		},
-		{
-			"from": "BP_TransitionManager",
-			"to": "BP_SaveManager",
-			"type": "Call",
-			"reason": "SetCurrentLevel"
 		},
 		{
 			"from": "BP_TransitionManager",
@@ -2901,51 +2763,21 @@
 		},
 		{
 			"from": "BP_WorldModeSystem",
-			"to": "BFL_Debug",
+			"to": "GI_Echoes",
 			"type": "Call",
-			"reason": "DebugMessage"
+			"reason": "RegisterWorldModeSystem"
 		},
 		{
 			"from": "BP_WorldModeSystem",
 			"to": "BP_SaveManager",
 			"type": "Call",
-			"reason": "GetCurrentWorldMode"
+			"reason": "RequestAutoSave"
 		},
 		{
 			"from": "BP_WorldModeSystem",
-			"to": "BFL_Debug",
+			"to": "GI_Echoes",
 			"type": "Call",
-			"reason": "DebugMessage"
-		},
-		{
-			"from": "BP_WorldModeSystem",
-			"to": "BFL_Debug",
-			"type": "Call",
-			"reason": "DebugMessage"
-		},
-		{
-			"from": "BP_WorldModeSystem",
-			"to": "BFL_Debug",
-			"type": "Call",
-			"reason": "DebugMessage"
-		},
-		{
-			"from": "BP_WorldModeSystem",
-			"to": "BP_SaveManager",
-			"type": "Call",
-			"reason": "SetCurrentWorldMode"
-		},
-		{
-			"from": "BP_WorldModeSystem",
-			"to": "BFL_Debug",
-			"type": "Call",
-			"reason": "DebugCritical"
-		},
-		{
-			"from": "BP_WorldModeSystem",
-			"to": "BFL_Debug",
-			"type": "Call",
-			"reason": "DebugInfo"
+			"reason": "GetWorldModeSystemRef"
 		},
 		{
 			"from": "GI_Echoes",

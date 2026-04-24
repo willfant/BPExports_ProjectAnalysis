@@ -126,26 +126,12 @@
 ### Read by Blueprints
 - BP_DebugManager
 
-## bDebugEnabled
-### Written by Blueprints
-- None detected
-
-### Read by Blueprints
-- BP_WorldModeSystem
-
 ## bDebugSystemEnabled
 ### Written by Blueprints
 - GI_Echoes
 
 ### Read by Blueprints
 - GI_Echoes
-
-## bDebugTransitions
-### Written by Blueprints
-- None detected
-
-### Read by Blueprints
-- BP_TransitionManager
 
 ## bDoLog
 ### Written by Blueprints
@@ -286,15 +272,10 @@
 ## bIsRestoringFromSave
 ### Written by Blueprints
 - BP_GhostManager
-
-### Read by Blueprints
-- BP_GhostManager
-
-## bIsRestoringFromSave 
-### Written by Blueprints
 - BP_WorldModeSystem
 
 ### Read by Blueprints
+- BP_GhostManager
 - BP_WorldModeSystem
 
 ## bIsRunning
@@ -1114,7 +1095,7 @@
 - BP_WorldModeSystem
 
 ### Read by Blueprints
-- BP_WorldModeSystem
+- None detected
 
 ## OwningGhostId
 ### Written by Blueprints
@@ -1310,6 +1291,7 @@
 - BP_GhostManager
 - BP_ObjectiveManager
 - BP_PuzzleController
+- BP_TransitionManager
 - BP_WorldModeSystem
 - GI_Echoes
 
@@ -1470,6 +1452,13 @@
 ### Read by Blueprints
 - GI_Echoes
 
+## TransictionDataL
+### Written by Blueprints
+- BP_TransitionManager
+
+### Read by Blueprints
+- BP_TransitionManager
+
 ## TransitionManagerRef
 ### Written by Blueprints
 - BP_PuzzleController
@@ -1573,6 +1562,7 @@
 - BP_AudioManager
 - BP_PuzzleController
 - BP_ScareManager
+- BP_TransitionManager
 - GI_Echoes
 
 ## WorldOk

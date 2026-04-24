@@ -54,12 +54,11 @@ flowchart TD
     BP_ScareManager -->|Call| GI_Echoes
     BP_ScareManager -->|Call| BP_GhostManager
     BP_Scare_Whisper -->|Call| BFL_Debug
-    BP_TransitionManager -->|Call| BFL_Debug
     BP_TransitionManager -->|Call| GI_Echoes
     BP_TransitionManager -->|Call| BP_WorldModeSystem
     BP_TransitionManager -->|Call| BP_SaveManager
     BP_WorldModeSystem -->|Reference| BP_SaveManager
-    BP_WorldModeSystem -->|Call| BFL_Debug
+    BP_WorldModeSystem -->|Call| GI_Echoes
     BP_WorldModeSystem -->|Call| BP_SaveManager
     GI_Echoes -->|Reference| BP_SaveManager
     GI_Echoes -->|Reference| BP_ObjectiveManager
