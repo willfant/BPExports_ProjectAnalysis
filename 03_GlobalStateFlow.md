@@ -47,6 +47,7 @@
 - GI_Echoes
 
 ### Read by Blueprints
+- BP_SaveManager
 - GI_Echoes
 
 ## AutoFinishDelay
@@ -355,6 +356,20 @@
 ### Read by Blueprints
 - BP_Scare_Whisper
 
+## bStartedNextPuzzleL
+### Written by Blueprints
+- BP_PuzzleController
+
+### Read by Blueprints
+- None detected
+
+## bStartedRewardObjectiveL
+### Written by Blueprints
+- BP_PuzzleController
+
+### Read by Blueprints
+- None detected
+
 ## bStartVisible
 ### Written by Blueprints
 - None detected
@@ -375,6 +390,13 @@
 
 ### Read by Blueprints
 - BP_TransitionManager
+
+## bTriggeredTransitionL
+### Written by Blueprints
+- BP_PuzzleController
+
+### Read by Blueprints
+- None detected
 
 ## bUseRandomRoom
 ### Written by Blueprints
@@ -438,6 +460,7 @@
 
 ### Read by Blueprints
 - BP_GhostManager
+- BP_SaveManager
 
 ## CompletedPuzzleIds
 ### Written by Blueprints
@@ -445,6 +468,7 @@
 
 ### Read by Blueprints
 - BP_PuzzleController
+- BP_SaveManager
 
 ## CompletedStepIds
 ### Written by Blueprints
@@ -522,6 +546,7 @@
 - BP_GhostManager
 - BP_ObjectiveManager
 - BP_PuzzleController
+- BP_SaveManager
 - BP_ScareManager
 
 ## CurrentGhostProfile
@@ -541,6 +566,7 @@
 ### Read by Blueprints
 - BP_AudioManager
 - BP_GhostManager
+- BP_SaveManager
 - BP_ScareManager
 
 ## CurrentMusicSound
@@ -563,6 +589,7 @@
 
 ### Read by Blueprints
 - BP_ObjectiveManager
+- BP_SaveManager
 
 ## CurrentPuzzleData
 ### Written by Blueprints
@@ -577,13 +604,14 @@
 
 ### Read by Blueprints
 - BP_PuzzleController
+- BP_SaveManager
 
 ## CurrentQuestId
 ### Written by Blueprints
 - BP_ObjectiveManager
 
 ### Read by Blueprints
-- None detected
+- BP_SaveManager
 
 ## CurrentSaveData
 ### Written by Blueprints
@@ -619,6 +647,7 @@
 
 ### Read by Blueprints
 - BP_PuzzleController
+- BP_SaveManager
 
 ## CurrentStingerSound
 ### Written by Blueprints
@@ -875,6 +904,7 @@
 - BP_AudioManager
 - BP_ObjectiveManager
 - BP_PuzzleController
+- BP_SaveManager
 - BP_ScareManager
 - GI_Echoes
 
@@ -1046,6 +1076,7 @@
 
 ### Read by Blueprints
 - BP_PuzzleController
+- BP_SaveManager
 - GI_Echoes
 
 ## ObjectivesDataTable
@@ -1061,6 +1092,7 @@
 
 ### Read by Blueprints
 - BP_ObjectiveManager
+- BP_SaveManager
 
 ## offsetBehind
 ### Written by Blueprints
@@ -1186,6 +1218,7 @@
 - GI_Echoes
 
 ### Read by Blueprints
+- BP_SaveManager
 - GI_Echoes
 
 ## PuzzleDataL
@@ -1359,6 +1392,7 @@
 
 ### Read by Blueprints
 - BP_PuzzleController
+- BP_SaveManager
 - GI_Echoes
 
 ## ScaresDataTable
@@ -1466,6 +1500,7 @@
 
 ### Read by Blueprints
 - BP_PuzzleController
+- BP_SaveManager
 - GI_Echoes
 
 ## UserIndex
@@ -1561,6 +1596,7 @@
 ### Read by Blueprints
 - BP_AudioManager
 - BP_PuzzleController
+- BP_SaveManager
 - BP_ScareManager
 - BP_TransitionManager
 - GI_Echoes

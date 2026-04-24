@@ -2,7 +2,7 @@
 
 ## BFL_Debug
 - Role: Shared Service / Hub
-- Incoming dependencies: 367
+- Incoming dependencies: 352
 - Outgoing dependencies: 1
 - External reference dependencies: 0
 - Functions/Graphs: 10
@@ -58,7 +58,7 @@
 
 ## BP_GhostManager
 - Role: General Runtime Blueprint
-- Incoming dependencies: 14
+- Incoming dependencies: 12
 - Outgoing dependencies: 25
 - External reference dependencies: 1
 - Functions/Graphs: 19
@@ -98,7 +98,7 @@
 
 ## BP_ObjectiveManager
 - Role: General Runtime Blueprint
-- Incoming dependencies: 7
+- Incoming dependencies: 4
 - Outgoing dependencies: 71
 - External reference dependencies: 2
 - Functions/Graphs: 17
@@ -114,19 +114,19 @@
 
 ## BP_PuzzleController
 - Role: System Orchestrator
-- Incoming dependencies: 5
-- Outgoing dependencies: 87
+- Incoming dependencies: 2
+- Outgoing dependencies: 85
 - External reference dependencies: 5
 - Functions/Graphs: 35
-- Problems: 7
+- Problems: 8
 
 ## BP_SaveManager
 - Role: General Runtime Blueprint
 - Incoming dependencies: 17
-- Outgoing dependencies: 76
+- Outgoing dependencies: 49
 - External reference dependencies: 2
 - Functions/Graphs: 15
-- Problems: 25
+- Problems: 13
 
 ## BP_ScareBase
 - Role: General Runtime Blueprint
@@ -162,7 +162,7 @@
 
 ## BP_TransitionManager
 - Role: General Runtime Blueprint
-- Incoming dependencies: 3
+- Incoming dependencies: 4
 - Outgoing dependencies: 8
 - External reference dependencies: 0
 - Functions/Graphs: 12
@@ -178,7 +178,7 @@
 
 ## GI_Echoes
 - Role: System Orchestrator
-- Incoming dependencies: 22
+- Incoming dependencies: 15
 - Outgoing dependencies: 20
 - External reference dependencies: 8
 - Functions/Graphs: 46
