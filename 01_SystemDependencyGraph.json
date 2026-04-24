@@ -24,8 +24,8 @@
 		{
 			"name": "BP_AudioManager",
 			"functions": 31,
-			"variables": 17,
-			"call_edges": 147,
+			"variables": 20,
+			"call_edges": 154,
 			"problems": 7
 		},
 		{
@@ -87,8 +87,8 @@
 		{
 			"name": "BP_ObjectiveManager",
 			"functions": 17,
-			"variables": 10,
-			"call_edges": 103,
+			"variables": 13,
+			"call_edges": 110,
 			"problems": 5
 		},
 		{
@@ -101,15 +101,15 @@
 		{
 			"name": "BP_PuzzleController",
 			"functions": 35,
-			"variables": 29,
-			"call_edges": 151,
-			"problems": 8
+			"variables": 32,
+			"call_edges": 157,
+			"problems": 6
 		},
 		{
 			"name": "BP_SaveManager",
-			"functions": 15,
-			"variables": 19,
-			"call_edges": 124,
+			"functions": 16,
+			"variables": 22,
+			"call_edges": 137,
 			"problems": 13
 		},
 		{
@@ -122,7 +122,7 @@
 		{
 			"name": "BP_ScareManager",
 			"functions": 35,
-			"variables": 22,
+			"variables": 25,
 			"call_edges": 205,
 			"problems": 17
 		},
@@ -151,15 +151,15 @@
 			"name": "BP_WorldModeSystem",
 			"functions": 9,
 			"variables": 7,
-			"call_edges": 14,
-			"problems": 0
+			"call_edges": 17,
+			"problems": 1
 		},
 		{
 			"name": "GI_Echoes",
-			"functions": 46,
+			"functions": 47,
 			"variables": 37,
-			"call_edges": 89,
-			"problems": 12
+			"call_edges": 97,
+			"problems": 13
 		}
 	],
 	"edges": [
@@ -288,30 +288,6 @@
 			"to": "BFL_Debug",
 			"type": "Call",
 			"reason": "DebugCritical"
-		},
-		{
-			"from": "BP_AudioManager",
-			"to": "BFL_Debug",
-			"type": "Call",
-			"reason": "DebugWarning"
-		},
-		{
-			"from": "BP_AudioManager",
-			"to": "BFL_Debug",
-			"type": "Call",
-			"reason": "GetSenderName"
-		},
-		{
-			"from": "BP_AudioManager",
-			"to": "BFL_Debug",
-			"type": "Call",
-			"reason": "DebugInfo"
-		},
-		{
-			"from": "BP_AudioManager",
-			"to": "BFL_Debug",
-			"type": "Call",
-			"reason": "GetSenderName"
 		},
 		{
 			"from": "BP_AudioManager",
@@ -591,6 +567,12 @@
 		},
 		{
 			"from": "BP_GhostManager",
+			"to": "BP_SaveManager",
+			"type": "Call",
+			"reason": "RequestAutoSave"
+		},
+		{
+			"from": "BP_GhostManager",
 			"to": "BFL_Debug",
 			"type": "Call",
 			"reason": "DebugInfo"
@@ -612,18 +594,6 @@
 			"to": "BFL_Debug",
 			"type": "Call",
 			"reason": "DebugWarning"
-		},
-		{
-			"from": "BP_GhostManager",
-			"to": "BFL_Debug",
-			"type": "Call",
-			"reason": "DebugCritical"
-		},
-		{
-			"from": "BP_GhostManager",
-			"to": "BFL_Debug",
-			"type": "Call",
-			"reason": "DebugInfo"
 		},
 		{
 			"from": "BP_GhostManager",
@@ -1002,6 +972,18 @@
 			"to": "BFL_Debug",
 			"type": "Call",
 			"reason": "DebugInfo"
+		},
+		{
+			"from": "BP_ObjectiveManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_ObjectiveManager",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugWarning"
 		},
 		{
 			"from": "BP_ObjectiveManager",
@@ -1535,30 +1517,6 @@
 			"from": "BP_PuzzleController",
 			"to": "BFL_Debug",
 			"type": "Call",
-			"reason": "DebugWarning"
-		},
-		{
-			"from": "BP_PuzzleController",
-			"to": "BFL_Debug",
-			"type": "Call",
-			"reason": "GetSenderName"
-		},
-		{
-			"from": "BP_PuzzleController",
-			"to": "BFL_Debug",
-			"type": "Call",
-			"reason": "DebugInfo"
-		},
-		{
-			"from": "BP_PuzzleController",
-			"to": "BFL_Debug",
-			"type": "Call",
-			"reason": "GetSenderName"
-		},
-		{
-			"from": "BP_PuzzleController",
-			"to": "BFL_Debug",
-			"type": "Call",
 			"reason": "DebugInfo"
 		},
 		{
@@ -1709,12 +1667,6 @@
 			"from": "BP_SaveManager",
 			"to": "BFL_Debug",
 			"type": "Call",
-			"reason": "DebugInfo"
-		},
-		{
-			"from": "BP_SaveManager",
-			"to": "BFL_Debug",
-			"type": "Call",
 			"reason": "DebugCritical"
 		},
 		{
@@ -1800,30 +1752,6 @@
 			"to": "BFL_Debug",
 			"type": "Call",
 			"reason": "DebugInfo"
-		},
-		{
-			"from": "BP_SaveManager",
-			"to": "BFL_Debug",
-			"type": "Call",
-			"reason": "DebugInfo"
-		},
-		{
-			"from": "BP_SaveManager",
-			"to": "BFL_Debug",
-			"type": "Call",
-			"reason": "DebugInfo"
-		},
-		{
-			"from": "BP_SaveManager",
-			"to": "BFL_Debug",
-			"type": "Call",
-			"reason": "DebugInfo"
-		},
-		{
-			"from": "BP_SaveManager",
-			"to": "BFL_Debug",
-			"type": "Call",
-			"reason": "DebugCritical"
 		},
 		{
 			"from": "BP_SaveManager",
@@ -2231,42 +2159,6 @@
 			"from": "BP_ScareManager",
 			"to": "BFL_Debug",
 			"type": "Call",
-			"reason": "DebugCritical"
-		},
-		{
-			"from": "BP_ScareManager",
-			"to": "BFL_Debug",
-			"type": "Call",
-			"reason": "GetSenderName"
-		},
-		{
-			"from": "BP_ScareManager",
-			"to": "BFL_Debug",
-			"type": "Call",
-			"reason": "DebugWarning"
-		},
-		{
-			"from": "BP_ScareManager",
-			"to": "BFL_Debug",
-			"type": "Call",
-			"reason": "GetSenderName"
-		},
-		{
-			"from": "BP_ScareManager",
-			"to": "BFL_Debug",
-			"type": "Call",
-			"reason": "DebugInfo"
-		},
-		{
-			"from": "BP_ScareManager",
-			"to": "BFL_Debug",
-			"type": "Call",
-			"reason": "GetSenderName"
-		},
-		{
-			"from": "BP_ScareManager",
-			"to": "BFL_Debug",
-			"type": "Call",
 			"reason": "DebugInfo"
 		},
 		{
@@ -2592,6 +2484,12 @@
 			"to": "GI_Echoes",
 			"type": "Call",
 			"reason": "RegisterWorldModeSystem"
+		},
+		{
+			"from": "BP_WorldModeSystem",
+			"to": "BP_SaveManager",
+			"type": "Call",
+			"reason": "RequestAutoSave"
 		},
 		{
 			"from": "BP_WorldModeSystem",

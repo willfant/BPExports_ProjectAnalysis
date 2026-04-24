@@ -1,17 +1,17 @@
 # System Risks
 
 ## High Coupling / Hubs
-- BFL_Debug has high coupling (incoming=352, outgoing=1)
-- BP_AudioManager has high coupling (incoming=2, outgoing=51)
-- BP_GhostManager has high coupling (incoming=12, outgoing=25)
-- BP_ObjectiveManager has high coupling (incoming=4, outgoing=71)
-- BP_PuzzleController has high coupling (incoming=2, outgoing=85)
-- BP_SaveManager has high coupling (incoming=17, outgoing=49)
+- BFL_Debug has high coupling (incoming=333, outgoing=1)
+- BP_AudioManager has high coupling (incoming=2, outgoing=47)
+- BP_GhostManager has high coupling (incoming=12, outgoing=24)
+- BP_ObjectiveManager has high coupling (incoming=4, outgoing=73)
+- BP_PuzzleController has high coupling (incoming=2, outgoing=81)
+- BP_SaveManager has high coupling (incoming=19, outgoing=44)
 - BP_ScareBase has high coupling (incoming=3, outgoing=4)
-- BP_ScareManager has high coupling (incoming=5, outgoing=97)
+- BP_ScareManager has high coupling (incoming=5, outgoing=91)
 - BP_Scare_Whisper has high coupling (incoming=0, outgoing=6)
 - BP_TransitionManager has high coupling (incoming=4, outgoing=8)
-- BP_WorldModeSystem has high coupling (incoming=11, outgoing=4)
+- BP_WorldModeSystem has high coupling (incoming=11, outgoing=5)
 - GI_Echoes has high coupling (incoming=15, outgoing=20)
 
 ## Circular Dependency Detection

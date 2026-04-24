@@ -2,7 +2,7 @@
 
 ## BFL_Debug
 - Role: Shared Service / Hub
-- Incoming dependencies: 352
+- Incoming dependencies: 333
 - Outgoing dependencies: 1
 - External reference dependencies: 0
 - Functions/Graphs: 10
@@ -27,7 +27,7 @@
 ## BP_AudioManager
 - Role: General Runtime Blueprint
 - Incoming dependencies: 2
-- Outgoing dependencies: 51
+- Outgoing dependencies: 47
 - External reference dependencies: 2
 - Functions/Graphs: 31
 - Problems: 7
@@ -59,7 +59,7 @@
 ## BP_GhostManager
 - Role: General Runtime Blueprint
 - Incoming dependencies: 12
-- Outgoing dependencies: 25
+- Outgoing dependencies: 24
 - External reference dependencies: 1
 - Functions/Graphs: 19
 - Problems: 4
@@ -99,7 +99,7 @@
 ## BP_ObjectiveManager
 - Role: General Runtime Blueprint
 - Incoming dependencies: 4
-- Outgoing dependencies: 71
+- Outgoing dependencies: 73
 - External reference dependencies: 2
 - Functions/Graphs: 17
 - Problems: 5
@@ -115,17 +115,17 @@
 ## BP_PuzzleController
 - Role: System Orchestrator
 - Incoming dependencies: 2
-- Outgoing dependencies: 85
+- Outgoing dependencies: 81
 - External reference dependencies: 5
 - Functions/Graphs: 35
-- Problems: 8
+- Problems: 6
 
 ## BP_SaveManager
 - Role: General Runtime Blueprint
-- Incoming dependencies: 17
-- Outgoing dependencies: 49
+- Incoming dependencies: 19
+- Outgoing dependencies: 44
 - External reference dependencies: 2
-- Functions/Graphs: 15
+- Functions/Graphs: 16
 - Problems: 13
 
 ## BP_ScareBase
@@ -139,7 +139,7 @@
 ## BP_ScareManager
 - Role: General Runtime Blueprint
 - Incoming dependencies: 5
-- Outgoing dependencies: 97
+- Outgoing dependencies: 91
 - External reference dependencies: 2
 - Functions/Graphs: 35
 - Problems: 17
@@ -171,16 +171,16 @@
 ## BP_WorldModeSystem
 - Role: General Runtime Blueprint
 - Incoming dependencies: 11
-- Outgoing dependencies: 4
+- Outgoing dependencies: 5
 - External reference dependencies: 1
 - Functions/Graphs: 9
-- Problems: 0
+- Problems: 1
 
 ## GI_Echoes
 - Role: System Orchestrator
 - Incoming dependencies: 15
 - Outgoing dependencies: 20
 - External reference dependencies: 8
-- Functions/Graphs: 46
-- Problems: 12
+- Functions/Graphs: 47
+- Problems: 13
 

@@ -85,6 +85,13 @@
 ### Read by Blueprints
 - BP_SaveManager
 
+## bAutoLoadOnBeginPlay
+### Written by Blueprints
+- None detected
+
+### Read by Blueprints
+- BP_SaveManager
+
 ## bAutoSavePending
 ### Written by Blueprints
 - BP_SaveManager
@@ -164,7 +171,7 @@
 
 ## bEnableAutoSave
 ### Written by Blueprints
-- BP_SaveManager
+- None detected
 
 ### Read by Blueprints
 - BP_SaveManager
@@ -207,6 +214,13 @@
 ## bFoundObjectiveToComplete
 ### Written by Blueprints
 - BP_ObjectiveManager
+
+### Read by Blueprints
+- BP_ObjectiveManager
+
+## bGhostBindingInitialized
+### Written by Blueprints
+- None detected
 
 ### Read by Blueprints
 - BP_ObjectiveManager
@@ -262,6 +276,13 @@
 - BP_PuzzleController
 - BP_ScareManager
 - BP_WorldModeSystem
+
+## bInitialRestoreCompleted
+### Written by Blueprints
+- BP_SaveManager
+
+### Read by Blueprints
+- BP_SaveManager
 
 ## bIsApplyingLoadedData
 ### Written by Blueprints
@@ -349,6 +370,21 @@
 ### Read by Blueprints
 - GI_Echoes
 
+## bShuttingDown
+### Written by Blueprints
+- BP_AudioManager
+- BP_ObjectiveManager
+- BP_PuzzleController
+- BP_SaveManager
+- BP_ScareManager
+
+### Read by Blueprints
+- BP_AudioManager
+- BP_ObjectiveManager
+- BP_PuzzleController
+- BP_SaveManager
+- BP_ScareManager
+
 ## bSpawnBehindPlayer
 ### Written by Blueprints
 - None detected
@@ -404,6 +440,17 @@
 
 ### Read by Blueprints
 - None detected
+
+## bWorldModeBindingInitialized
+### Written by Blueprints
+- BP_AudioManager
+- BP_PuzzleController
+- BP_ScareManager
+
+### Read by Blueprints
+- BP_AudioManager
+- BP_PuzzleController
+- BP_ScareManager
 
 ## CachedGameInstance
 ### Written by Blueprints
@@ -893,6 +940,13 @@
 ### Read by Blueprints
 - BPFL_Level
 
+## GhostBindingRetryHandle
+### Written by Blueprints
+- BP_ObjectiveManager
+
+### Read by Blueprints
+- BP_ObjectiveManager
+
 ## GhostManagerRef
 ### Written by Blueprints
 - BP_AudioManager
@@ -949,6 +1003,13 @@
 
 ### Read by Blueprints
 - GI_Echoes
+
+## InitialRestoreRetryHandle
+### Written by Blueprints
+- BP_SaveManager
+
+### Read by Blueprints
+- BP_SaveManager
 
 ## LastAnyScareTime
 ### Written by Blueprints
@@ -1156,6 +1217,13 @@
 
 ### Read by Blueprints
 - BP_Portal
+
+## PendingReasonL
+### Written by Blueprints
+- BP_SaveManager
+
+### Read by Blueprints
+- BP_SaveManager
 
 ## PendingTransitionData
 ### Written by Blueprints
@@ -1586,6 +1654,17 @@
 
 ### Read by Blueprints
 - BP_Scare_Whisper
+
+## WorldModeBindingRetryHandle
+### Written by Blueprints
+- BP_AudioManager
+- BP_PuzzleController
+- BP_ScareManager
+
+### Read by Blueprints
+- BP_AudioManager
+- BP_PuzzleController
+- BP_ScareManager
 
 ## WorldModeSystemRef
 ### Written by Blueprints
