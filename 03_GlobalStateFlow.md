@@ -118,7 +118,7 @@
 - BP_PuzzleActorBase
 
 ### Read by Blueprints
-- None detected
+- BP_PuzzleActorBase
 
 ## bCreateMainFeed
 ### Written by Blueprints
@@ -140,13 +140,6 @@
 
 ### Read by Blueprints
 - BP_DebugManager
-
-## bDebugPuzzleActor
-### Written by Blueprints
-- None detected
-
-### Read by Blueprints
-- BP_PuzzleActorBase
 
 ## bDebugSystemEnabled
 ### Written by Blueprints
@@ -800,13 +793,6 @@
 ### Read by Blueprints
 - GI_Echoes
 
-## DebugSenderName
-### Written by Blueprints
-- None detected
-
-### Read by Blueprints
-- BP_PuzzleActorBase
-
 ## DebugThrottleMap
 ### Written by Blueprints
 - None detected
@@ -994,6 +980,7 @@
 - BP_AudioManager
 - BP_ObjectiveManager
 - BP_PuzzleController
+- BP_ScareManager
 - GI_Echoes
 
 ### Read by Blueprints
@@ -1259,6 +1246,13 @@
 
 ### Read by Blueprints
 - BP_Portal
+
+## PendingArrivalRetryHandle
+### Written by Blueprints
+- BP_TransitionManager
+
+### Read by Blueprints
+- None detected
 
 ## PendingReasonL
 ### Written by Blueprints

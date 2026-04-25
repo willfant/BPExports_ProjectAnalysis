@@ -108,9 +108,9 @@
 		{
 			"name": "BP_PuzzleActorBase",
 			"functions": 7,
-			"variables": 9,
-			"call_edges": 19,
-			"problems": 3
+			"variables": 7,
+			"call_edges": 12,
+			"problems": 0
 		},
 		{
 			"name": "BP_PuzzleController",
@@ -137,7 +137,7 @@
 			"name": "BP_ScareManager",
 			"functions": 35,
 			"variables": 25,
-			"call_edges": 205,
+			"call_edges": 206,
 			"problems": 17
 		},
 		{
@@ -157,9 +157,9 @@
 		{
 			"name": "BP_TransitionManager",
 			"functions": 12,
-			"variables": 12,
-			"call_edges": 48,
-			"problems": 0
+			"variables": 13,
+			"call_edges": 54,
+			"problems": 1
 		},
 		{
 			"name": "BP_WorldModeSystem",
@@ -172,7 +172,7 @@
 			"name": "GI_Echoes",
 			"functions": 47,
 			"variables": 37,
-			"call_edges": 97,
+			"call_edges": 98,
 			"problems": 13
 		}
 	],
@@ -1088,12 +1088,6 @@
 			"to": "BP_PuzzleController",
 			"type": "Reference",
 			"reason": "PuzzleControllerRef"
-		},
-		{
-			"from": "BP_PuzzleActorBase",
-			"to": "BFL_Debug",
-			"type": "Call",
-			"reason": "DebugMessage"
 		},
 		{
 			"from": "BP_PuzzleActorBase",

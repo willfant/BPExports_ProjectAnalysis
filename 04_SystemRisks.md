@@ -1,7 +1,7 @@
 # System Risks
 
 ## High Coupling / Hubs
-- BFL_Debug has high coupling (incoming=334, outgoing=1)
+- BFL_Debug has high coupling (incoming=333, outgoing=1)
 - BP_AudioManager has high coupling (incoming=2, outgoing=47)
 - BP_GhostManager has high coupling (incoming=12, outgoing=24)
 - BP_ObjectiveManager has high coupling (incoming=4, outgoing=73)

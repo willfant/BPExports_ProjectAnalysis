@@ -2,7 +2,7 @@
 
 ## BFL_Debug
 - Role: Shared Service / Hub
-- Incoming dependencies: 334
+- Incoming dependencies: 333
 - Outgoing dependencies: 1
 - External reference dependencies: 0
 - Functions/Graphs: 10
@@ -123,10 +123,10 @@
 ## BP_PuzzleActorBase
 - Role: General Runtime Blueprint
 - Incoming dependencies: 0
-- Outgoing dependencies: 4
+- Outgoing dependencies: 3
 - External reference dependencies: 1
 - Functions/Graphs: 7
-- Problems: 3
+- Problems: 0
 
 ## BP_PuzzleController
 - Role: System Orchestrator
@@ -182,7 +182,7 @@
 - Outgoing dependencies: 8
 - External reference dependencies: 0
 - Functions/Graphs: 12
-- Problems: 0
+- Problems: 1
 
 ## BP_WorldModeSystem
 - Role: General Runtime Blueprint
