@@ -22,6 +22,9 @@ flowchart TD
     BP_ObjectiveManager -->|Call| BP_SaveManager
     BP_ObjectiveManager -->|Call| GI_Echoes
     BP_ObjectiveManager -->|Call| BP_GhostManager
+    BP_PuzzleActorBase -->|Reference| BP_PuzzleController
+    BP_PuzzleActorBase -->|Call| BFL_Debug
+    BP_PuzzleActorBase -->|Call| BP_PuzzleController
     BP_PuzzleController -->|Reference| BP_GhostManager
     BP_PuzzleController -->|Reference| BP_TransitionManager
     BP_PuzzleController -->|Reference| BP_ObjectiveManager

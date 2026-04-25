@@ -4,6 +4,7 @@
 - BFL_Debug
 - BML_DebugAuto_Actor
 - BPFL_Level
+- BPI_PuzzleStepReceiver
 - BP_AudioManager
 - BP_DebugManager
 - BP_GetActorsLocation
@@ -15,6 +16,7 @@
 - BP_MRUKAnchorSpawner1
 - BP_ObjectiveManager
 - BP_Portal
+- BP_PuzzleActorBase
 - BP_PuzzleController
 - BP_SaveManager
 - BP_ScareBase
@@ -26,8 +28,8 @@
 - GI_Echoes
 
 ## Metrics
-- Blueprint count: 23
-- Cross-blueprint edges: 410
+- Blueprint count: 25
+- Cross-blueprint edges: 414
 
 ## What this analysis does
 - Detects likely dependencies between exported Blueprints.

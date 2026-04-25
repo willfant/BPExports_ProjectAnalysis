@@ -2,7 +2,7 @@
 
 ## BFL_Debug
 - Role: Shared Service / Hub
-- Incoming dependencies: 333
+- Incoming dependencies: 334
 - Outgoing dependencies: 1
 - External reference dependencies: 0
 - Functions/Graphs: 10
@@ -23,6 +23,14 @@
 - External reference dependencies: 0
 - Functions/Graphs: 15
 - Problems: 5
+
+## BPI_PuzzleStepReceiver
+- Role: Worker / Leaf Blueprint
+- Incoming dependencies: 0
+- Outgoing dependencies: 0
+- External reference dependencies: 0
+- Functions/Graphs: 2
+- Problems: 0
 
 ## BP_AudioManager
 - Role: General Runtime Blueprint
@@ -112,9 +120,17 @@
 - Functions/Graphs: 4
 - Problems: 0
 
+## BP_PuzzleActorBase
+- Role: General Runtime Blueprint
+- Incoming dependencies: 0
+- Outgoing dependencies: 4
+- External reference dependencies: 1
+- Functions/Graphs: 7
+- Problems: 3
+
 ## BP_PuzzleController
 - Role: System Orchestrator
-- Incoming dependencies: 2
+- Incoming dependencies: 5
 - Outgoing dependencies: 81
 - External reference dependencies: 5
 - Functions/Graphs: 35

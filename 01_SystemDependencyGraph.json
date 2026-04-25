@@ -22,6 +22,13 @@
 			"problems": 5
 		},
 		{
+			"name": "BPI_PuzzleStepReceiver",
+			"functions": 2,
+			"variables": 0,
+			"call_edges": 0,
+			"problems": 0
+		},
+		{
 			"name": "BP_AudioManager",
 			"functions": 31,
 			"variables": 20,
@@ -97,6 +104,13 @@
 			"variables": 0,
 			"call_edges": 13,
 			"problems": 0
+		},
+		{
+			"name": "BP_PuzzleActorBase",
+			"functions": 7,
+			"variables": 9,
+			"call_edges": 19,
+			"problems": 3
 		},
 		{
 			"name": "BP_PuzzleController",
@@ -1068,6 +1082,30 @@
 			"to": "BFL_Debug",
 			"type": "Call",
 			"reason": "GetSenderName"
+		},
+		{
+			"from": "BP_PuzzleActorBase",
+			"to": "BP_PuzzleController",
+			"type": "Reference",
+			"reason": "PuzzleControllerRef"
+		},
+		{
+			"from": "BP_PuzzleActorBase",
+			"to": "BFL_Debug",
+			"type": "Call",
+			"reason": "DebugMessage"
+		},
+		{
+			"from": "BP_PuzzleActorBase",
+			"to": "BP_PuzzleController",
+			"type": "Call",
+			"reason": "ReportStepSuccess"
+		},
+		{
+			"from": "BP_PuzzleActorBase",
+			"to": "BP_PuzzleController",
+			"type": "Call",
+			"reason": "ReportStepFailure"
 		},
 		{
 			"from": "BP_PuzzleController",

@@ -113,6 +113,13 @@
 ### Read by Blueprints
 - GI_Echoes
 
+## bCompleted
+### Written by Blueprints
+- BP_PuzzleActorBase
+
+### Read by Blueprints
+- None detected
+
 ## bCreateMainFeed
 ### Written by Blueprints
 - None detected
@@ -133,6 +140,13 @@
 
 ### Read by Blueprints
 - BP_DebugManager
+
+## bDebugPuzzleActor
+### Written by Blueprints
+- None detected
+
+### Read by Blueprints
+- BP_PuzzleActorBase
 
 ## bDebugSystemEnabled
 ### Written by Blueprints
@@ -283,6 +297,13 @@
 
 ### Read by Blueprints
 - BP_SaveManager
+
+## bIsActiveForCurrentStep
+### Written by Blueprints
+- BP_PuzzleActorBase
+
+### Read by Blueprints
+- BP_PuzzleActorBase
 
 ## bIsApplyingLoadedData
 ### Written by Blueprints
@@ -779,6 +800,13 @@
 ### Read by Blueprints
 - GI_Echoes
 
+## DebugSenderName
+### Written by Blueprints
+- None detected
+
+### Read by Blueprints
+- BP_PuzzleActorBase
+
 ## DebugThrottleMap
 ### Written by Blueprints
 - None detected
@@ -848,6 +876,20 @@
 
 ### Read by Blueprints
 - BP_ObjectiveManager
+
+## ExpectedPuzzleId
+### Written by Blueprints
+- None detected
+
+### Read by Blueprints
+- BP_PuzzleActorBase
+
+## ExpectedStepId
+### Written by Blueprints
+- None detected
+
+### Read by Blueprints
+- BP_PuzzleActorBase
 
 ## FadeWidgetClass
 ### Written by Blueprints
@@ -1283,9 +1325,11 @@
 
 ## PuzzleControllerRef
 ### Written by Blueprints
+- BP_PuzzleActorBase
 - GI_Echoes
 
 ### Read by Blueprints
+- BP_PuzzleActorBase
 - BP_SaveManager
 - GI_Echoes
 
@@ -1309,6 +1353,20 @@
 
 ### Read by Blueprints
 - BP_ScareManager
+
+## ReceivedStepData
+### Written by Blueprints
+- BP_PuzzleActorBase
+
+### Read by Blueprints
+- None detected
+
+## ReceivedStepIndex
+### Written by Blueprints
+- BP_PuzzleActorBase
+
+### Read by Blueprints
+- None detected
 
 ## RegisteredDebugManager
 ### Written by Blueprints
