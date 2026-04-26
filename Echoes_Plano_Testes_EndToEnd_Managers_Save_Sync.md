@@ -2339,24 +2339,24 @@ Tudo persiste.
 Marca cada ponto quando passar.
 
 ```text
-[ ] GI_Echoes é o Game Instance ativo.
-[ ] Todos os managers existem uma vez no mapa.
-[ ] Todos os managers registam no GI.
-[ ] TestHarness mostra todas as refs VALID.
-[ ] SaveManager cria save novo quando não existe.
-[ ] SaveManager carrega save existente.
-[ ] RestoreFullGameState corre uma vez.
-[ ] ApplySnapshotToManagers chama restores certos.
-[ ] GhostManager restaura CurrentGhostId.
-[ ] GhostManager restaura CurrentGhostState.
-[ ] WorldModeSystem restaura MR/VRMemory.
-[ ] ObjectiveManager restaura ObjectiveStates.
-[ ] PuzzleController restaura CurrentPuzzleId.
-[ ] PuzzleController restaura CurrentStepIndex.
-[ ] PuzzleActor certo ativa no step certo.
-[ ] ReportStepSuccess avança step.
-[ ] Autosave grava após mudança de step.
-[ ] Fechar e abrir mantém step atual.
+[x] GI_Echoes é o Game Instance ativo.
+[x] Todos os managers existem uma vez no mapa.
+[x] Todos os managers registam no GI.
+[x] TestHarness mostra todas as refs VALID.
+[x] SaveManager cria save novo quando não existe.
+[x] SaveManager carrega save existente.
+[x] RestoreFullGameState corre uma vez.
+[x] ApplySnapshotToManagers chama restores certos.
+[x] GhostManager restaura CurrentGhostId.
+[x] GhostManager restaura CurrentGhostState.
+[x] WorldModeSystem restaura MR/VRMemory.
+[x] ObjectiveManager restaura ObjectiveStates.
+[x] PuzzleController restaura CurrentPuzzleId.
+[x] PuzzleController restaura CurrentStepIndex.
+[x] PuzzleActor certo ativa no step certo.
+[x] ReportStepSuccess avança step.
+[x] Autosave grava após mudança de step.
+[x] Fechar e abrir mantém step atual.
 [ ] CompleteCurrentPuzzle atualiza CompletedPuzzleIds.
 [ ] Puzzle completion atualiza objectives.
 [ ] Puzzle completion dispara transition, se configurado.
