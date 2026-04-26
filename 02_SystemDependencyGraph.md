@@ -388,6 +388,7 @@
 - BP_TransitionManager -> BP_SaveManager [Call] (WriteSaveToDisk)
 - BP_TransitionManager -> BP_SaveManager [Call] (BuildSnapshotFromManagers)
 - BP_TransitionManager -> BP_SaveManager [Call] (WriteSaveToDisk)
+- BP_TransitionManager -> BP_SaveManager [Call] (WriteSaveToDisk)
 - BP_WorldModeSystem -> BP_SaveManager [Reference] (SaveManagerRef)
 - BP_WorldModeSystem -> GI_Echoes [Call] (RegisterWorldModeSystem)
 - BP_WorldModeSystem -> BP_SaveManager [Call] (RequestAutoSave)

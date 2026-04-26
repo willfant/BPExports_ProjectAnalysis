@@ -35,6 +35,13 @@
 ### Read by Blueprints
 - BP_ScareManager
 
+## ArrivalSaveRetryHandle
+### Written by Blueprints
+- BP_TransitionManager
+
+### Read by Blueprints
+- None detected
+
 ## AudioCueL
 ### Written by Blueprints
 - BP_AudioManager
@@ -265,6 +272,7 @@
 - GI_Echoes
 
 ### Read by Blueprints
+- BP_SaveManager
 - BP_TransitionManager
 
 ## bInitialized
@@ -355,6 +363,13 @@
 
 ### Read by Blueprints
 - BP_Scare_Whisper
+
+## bResumeLastLevelOnStartup
+### Written by Blueprints
+- None detected
+
+### Read by Blueprints
+- BP_SaveManager
 
 ## bSaveSystemReady
 ### Written by Blueprints
@@ -799,6 +814,13 @@
 
 ### Read by Blueprints
 - GI_Echoes
+
+## DefaultResumeLevelName
+### Written by Blueprints
+- None detected
+
+### Read by Blueprints
+- BP_SaveManager
 
 ## DistOk
 ### Written by Blueprints

@@ -109,8 +109,8 @@
 			"name": "BP_PuzzleActorBase",
 			"functions": 7,
 			"variables": 7,
-			"call_edges": 12,
-			"problems": 0
+			"call_edges": 13,
+			"problems": 1
 		},
 		{
 			"name": "BP_PuzzleController",
@@ -121,10 +121,10 @@
 		},
 		{
 			"name": "BP_SaveManager",
-			"functions": 16,
-			"variables": 22,
-			"call_edges": 137,
-			"problems": 13
+			"functions": 18,
+			"variables": 24,
+			"call_edges": 148,
+			"problems": 15
 		},
 		{
 			"name": "BP_ScareBase",
@@ -156,10 +156,10 @@
 		},
 		{
 			"name": "BP_TransitionManager",
-			"functions": 12,
-			"variables": 13,
-			"call_edges": 54,
-			"problems": 1
+			"functions": 13,
+			"variables": 14,
+			"call_edges": 62,
+			"problems": 2
 		},
 		{
 			"name": "BP_WorldModeSystem",
@@ -2498,6 +2498,12 @@
 			"to": "BP_SaveManager",
 			"type": "Call",
 			"reason": "BuildSnapshotFromManagers"
+		},
+		{
+			"from": "BP_TransitionManager",
+			"to": "BP_SaveManager",
+			"type": "Call",
+			"reason": "WriteSaveToDisk"
 		},
 		{
 			"from": "BP_TransitionManager",

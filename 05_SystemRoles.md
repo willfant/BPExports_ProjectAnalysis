@@ -126,7 +126,7 @@
 - Outgoing dependencies: 3
 - External reference dependencies: 1
 - Functions/Graphs: 7
-- Problems: 0
+- Problems: 1
 
 ## BP_PuzzleController
 - Role: System Orchestrator
@@ -138,11 +138,11 @@
 
 ## BP_SaveManager
 - Role: General Runtime Blueprint
-- Incoming dependencies: 19
+- Incoming dependencies: 20
 - Outgoing dependencies: 44
 - External reference dependencies: 2
-- Functions/Graphs: 16
-- Problems: 13
+- Functions/Graphs: 18
+- Problems: 15
 
 ## BP_ScareBase
 - Role: General Runtime Blueprint
@@ -179,10 +179,10 @@
 ## BP_TransitionManager
 - Role: General Runtime Blueprint
 - Incoming dependencies: 4
-- Outgoing dependencies: 8
+- Outgoing dependencies: 9
 - External reference dependencies: 0
-- Functions/Graphs: 12
-- Problems: 1
+- Functions/Graphs: 13
+- Problems: 2
 
 ## BP_WorldModeSystem
 - Role: General Runtime Blueprint
